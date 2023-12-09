@@ -1,0 +1,19 @@
+
+body{
+    background-color: white;
+}
+.banner-content-title {
+    font-size: min(max(40px, calc(2.5rem + ((1vw - 7.68px) * 2.0833))), 64px);
+    line-height:1em;
+    opacity: 1;
+    color: black;
+    font-weight: 900;
+    font-family: "HCo Gotham",sans-serif;
+}
+.banner-thumb-wrapper{
+    font-size: min(max(13px, calc(2.5rem + ((1vw - 7.68px) * 2.0833))), 24px);
+    animation: fadeInUp 500ms ease-out;
+}
+.col-lg-4.col-sm-6.mt-4{
+    transform: translateX(-700px);
+}

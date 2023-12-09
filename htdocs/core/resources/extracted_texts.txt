@@ -1,0 +1,398 @@
+./views/components/bulk-action-js.blade.php:Deleting
+./views/components/btn/submit.blade.php:Submitting
+./views/components/btn/update.blade.php:Updating
+./views/components/btn/import.blade.php:Importing..
+./views/components/btn/save.blade.php:Saving
+./views/components/media-upload/js.blade.php:Are you sure to delete this image
+./views/components/media-upload/js.blade.php:This image will remove permanently
+./views/components/custom-js/contact-form-store.blade.php:Submitting..
+./views/components/custom-js/contact-form-store.blade.php:Submit Message
+./views/components/custom-js/contact-form-store.blade.php:Submit Message
+./views/components/custom-js/ajax-login.blade.php:Please Wait..
+./views/components/custom-js/ajax-login.blade.php:Login
+./views/components/custom-js/ajax-login.blade.php:Login Success.. Redirecting ..
+./views/components/custom-js/ajax-login.blade.php:Login
+./views/components/tenant/product/quick-view-js.blade.php:An error occurred
+./views/components/tenant/product/quick-view-js.blade.php:Select all attribute to proceed
+./views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./views/components/tenant/product/quick-view-js.blade.php:An error occurred
+./views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./views/components/tenant/product/quick-view-js.blade.php:Item added to compare
+./views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./views/components/tenant/product/quick-view-js.blade.php:Item added to compare
+./views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./views/components/tenant/product/quick-view-js.blade.php:Attribute not available
+./views/components/tenant/product/quick-view-js.blade.php:An error occurred
+./views/components/table/btn/swal/js.blade.php:You would not be able to revert this item!
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:order
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:order details
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:billing information
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:product
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:subtotal
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:Size
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:Color
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:subtotal
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:coupon discount
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:tax
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:shipping cost
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:total
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:payment method
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:Cash on delivery
+./views/theme/hexfashion/user/dashboard/order-details.blade.php:Order
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:order
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:order details
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:billing information
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:product
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:subtotal
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:Size
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:Color
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:subtotal
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:coupon discount
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:tax
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:shipping cost
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:total
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:payment method
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:Cash on delivery
+./views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:Order
+./views/theme/hexfashion/user/login.blade.php:Don'/t have an account
+./views/landlord/frontend/auth/email-verify.blade.php:Verify your email
+./views/landlord/frontend/auth/login.blade.php:Login to your account
+./views/landlord/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./views/landlord/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/landlord/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./views/landlord/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/landlord/frontend/partials/navbar.blade.php:Login
+./views/landlord/frontend/partials/navbar.blade.php:Get Started
+./views/landlord/frontend/partials/navbar.blade.php:Get Started
+./views/landlord/frontend/partials/navbar.blade.php:Login
+./views/landlord/frontend/partials/navbar.blade.php:Get Started
+./views/landlord/frontend/partials/navbar.blade.php:Get Started
+./views/landlord/frontend/frontend-home-prod.blade.php:Get started for FREE
+./views/landlord/frontend/frontend-home-prod.blade.php:Get Started
+./views/landlord/frontend/frontend-home-prod.blade.php:Get Started
+./views/landlord/frontend/pages/package/order-page.blade.php:Please Wait
+./views/landlord/frontend/pages/package/order-page.blade.php:Login
+./views/landlord/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./views/landlord/frontend/pages/package/order-page.blade.php:Login
+./views/landlord/frontend/pages/package/price-plan.blade.php:Please Wait
+./views/landlord/frontend/pages/package/price-plan.blade.php:Login
+./views/landlord/frontend/pages/package/price-plan.blade.php:Login Success.. Redirecting ..
+./views/landlord/frontend/pages/package/price-plan.blade.php:Login
+./views/landlord/frontend/pages/package/view-plan.blade.php:Please Wait
+./views/landlord/frontend/pages/package/view-plan.blade.php:Login
+./views/landlord/frontend/pages/package/view-plan.blade.php:Login Success.. Redirecting ..
+./views/landlord/frontend/pages/package/view-plan.blade.php:Login
+./views/landlord/frontend/user/login.blade.php:Don'/t have an account
+./views/landlord/admin/admin-home.blade.php:Amount Per Month In
+./views/landlord/admin/admin-home.blade.php:Amount Per Day In Last 30Days
+./views/landlord/admin/general-settings/footer-global-variant.blade.php:Footer Global Vartiant Settings
+./views/landlord/admin/general-settings/license-settings.blade.php:License Settings
+./views/landlord/admin/general-settings/payment-gateway.blade.php:Payment Gateway Settings
+./views/landlord/admin/general-settings/typography-settings.blade.php:Heading Typography Settings
+./views/landlord/admin/general-settings/page-settings.blade.php:Page Settings
+./views/landlord/admin/general-settings/database-upgrade.blade.php:Database Upgrade
+./views/landlord/admin/general-settings/database-upgrade.blade.php:Proccesing
+./views/landlord/admin/general-settings/navbar-global-variant.blade.php:Navbar Global Variants Settings
+./views/landlord/admin/general-settings/third-party.blade.php:Third Party Scripts Settings
+./views/landlord/admin/general-settings/custom-js.blade.php:Custom Js
+./views/landlord/admin/general-settings/tenant/theme/typography-settings-theme-02.blade.php:Heading Typography Settings
+./views/landlord/admin/general-settings/tenant/theme/typography-settings-theme-03.blade.php:Heading Typography Settings
+./views/landlord/admin/general-settings/tenant/theme/typography-settings.blade.php:Heading Typography Settings
+./views/landlord/admin/general-settings/tenant/theme/typography-settings-theme-01.blade.php:Heading Typography Settings
+./views/landlord/admin/package-order-manage/order-manage-all.blade.php:Update Status
+./views/landlord/admin/package-order-manage/order-report.blade.php:Order Report
+./views/landlord/admin/package-order-manage/order-success-page.blade.php:Order Success Page Settings
+./views/landlord/admin/package-order-manage/order-cancel-page.blade.php:Order Cancel Page Settings
+./views/landlord/admin/admin-role-manage/role/index.blade.php:New Role
+./views/landlord/admin/admin-role-manage/edit-user.blade.php:All Admin
+./views/landlord/admin/admin-role-manage/all-user.blade.php:Change Password
+./views/landlord/admin/partials/footer.blade.php:Are you sure?
+./views/landlord/admin/partials/footer.blade.php:You would not be able to revert this item!
+./views/landlord/admin/partials/footer.blade.php:Are you sure to make this language as a default language?
+./views/landlord/admin/partials/footer.blade.php:Languages will be turn changed as default
+./views/landlord/admin/partials/footer.blade.php:Are you sure to approve this payment?
+./views/landlord/admin/payment-logs/payment-report.blade.php:Payment Report
+./views/landlord/admin/languages/edit-words.blade.php:Change All Words
+./views/landlord/admin/languages/edit-words.blade.php:Are you sure?
+./views/landlord/admin/languages/edit-words.blade.php:It will delete current source texts, you will lose your current translated data!
+./views/landlord/admin/languages/index.blade.php:Default
+./views/landlord/admin/languages/index.blade.php:RTL
+./views/landlord/admin/languages/index.blade.php:Draft
+./views/landlord/admin/languages/index.blade.php:RTL
+./views/landlord/admin/languages/index.blade.php:Draft
+./views/landlord/admin/languages/index.blade.php:RTL
+./views/landlord/admin/languages/index.blade.php:Draft
+./views/landlord/admin/price-plan/settings.blade.php:Price Plan Settings
+./views/landlord/admin/form-builder/get-in-touch-form.blade.php:Get In Touch Form Builder
+./views/landlord/admin/form-builder/get-in-touch-form.blade.php:Available Form Fields
+./views/landlord/admin/form-builder/custom/edit.blade.php:Edit Form
+./views/landlord/admin/form-builder/custom/edit.blade.php:Available Form Fields
+./views/landlord/admin/form-builder/contact-form.blade.php:Contact Form Builder
+./views/landlord/admin/form-builder/contact-form.blade.php:Available Form Fields
+./views/landlord/admin/menu/menu-edit.blade.php:URL
+./views/landlord/admin/menu/menu-edit.blade.php:Link Text
+./views/landlord/admin/menu/menu-edit.blade.php:Register
+./views/landlord/admin/menu/menu-edit.blade.php:Login
+./views/landlord/admin/menu/menu-edit.blade.php:Logout
+./views/landlord/admin/menu/menu-edit.blade.php:Dashboard
+./views/landlord/admin/menu/menu-edit.blade.php:Default Auth Item
+./views/landlord/admin/menu/menu-edit.blade.php:Updating
+./views/landlord/admin/custom-domain/settings.blade.php:Custom Domain Settings
+./views/landlord/admin/custom-domain/all-pending-requests.blade.php:Update Status
+./views/landlord/admin/custom-domain/all-requests.blade.php:Update Status
+./views/landlord/admin/tenant/details.blade.php:Cancel
+./views/themes/hexfashion/frontend/invoice/order.blade.php:Size
+./views/themes/hexfashion/frontend/invoice/order.blade.php:Color
+./views/themes/hexfashion/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./views/themes/hexfashion/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/themes/hexfashion/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./views/themes/hexfashion/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Please Wait
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Login
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Login
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/themes/hexfashion/frontend/pages/package/order-page.blade.php:Please Wait
+./views/themes/hexfashion/frontend/pages/package/order-page.blade.php:Login
+./views/themes/hexfashion/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./views/themes/hexfashion/frontend/pages/package/order-page.blade.php:Login
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Please Wait
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Login
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Login
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Don'/t have an account
+./views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Please Wait
+./views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Login
+./views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Login
+./views/themes/furnito/frontend/invoice/order.blade.php:Size
+./views/themes/furnito/frontend/invoice/order.blade.php:Color
+./views/themes/furnito/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./views/themes/furnito/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/themes/furnito/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./views/themes/furnito/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Please Wait
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Login
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Login
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/themes/furnito/frontend/pages/package/order-page.blade.php:Please Wait
+./views/themes/furnito/frontend/pages/package/order-page.blade.php:Login
+./views/themes/furnito/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./views/themes/furnito/frontend/pages/package/order-page.blade.php:Login
+./views/themes/default/frontend/invoice/order.blade.php:Size
+./views/themes/default/frontend/invoice/order.blade.php:Color
+./views/themes/default/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./views/themes/default/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/themes/default/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./views/themes/default/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:Please Wait
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:Login
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:Login
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/default/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/themes/default/frontend/pages/package/order-page.blade.php:Please Wait
+./views/themes/default/frontend/pages/package/order-page.blade.php:Login
+./views/themes/default/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./views/themes/default/frontend/pages/package/order-page.blade.php:Login
+./views/themes/medicom/frontend/invoice/order.blade.php:Size
+./views/themes/medicom/frontend/invoice/order.blade.php:Color
+./views/themes/medicom/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./views/themes/medicom/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/themes/medicom/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./views/themes/medicom/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Please Wait
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Login
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Login
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/themes/medicom/frontend/pages/package/order-page.blade.php:Please Wait
+./views/themes/medicom/frontend/pages/package/order-page.blade.php:Login
+./views/themes/medicom/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./views/themes/medicom/frontend/pages/package/order-page.blade.php:Login
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Please Wait
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Login
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Login
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Don'/t have an account
+./views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Please Wait
+./views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Login
+./views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Login
+./views/tenant/frontend/invoice/order.blade.php:Size
+./views/tenant/frontend/invoice/order.blade.php:Color
+./views/tenant/frontend/partials/footer.blade.php:An error occurred
+./views/tenant/frontend/partials/footer.blade.php:Select all attribute to proceed
+./views/tenant/frontend/partials/footer.blade.php:An error occurred
+./views/tenant/frontend/partials/footer.blade.php:An error occurred
+./views/tenant/frontend/partials/footer.blade.php:An error occurred
+./views/tenant/frontend/partials/footer.blade.php:Attribute not available
+./views/tenant/frontend/partials/footer.blade.php:An error occurred
+./views/tenant/frontend/partials/footer.blade.php:Select all attribute to proceed
+./views/tenant/frontend/partials/footer.blade.php:An error occurred
+./views/tenant/frontend/partials/footer.blade.php:Select all attribute to proceed
+./views/tenant/frontend/partials/footer.blade.php:An error occurred
+./views/tenant/frontend/partials/footer.blade.php:Select all attribute to proceed
+./views/tenant/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./views/tenant/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/tenant/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./views/tenant/frontend/partials/ajax-login-form-js.blade.php:Login
+./views/tenant/frontend/shop/product_details/product-details.blade.php:Please Wait
+./views/tenant/frontend/shop/product_details/product-details.blade.php:Login
+./views/tenant/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./views/tenant/frontend/shop/product_details/product-details.blade.php:Login
+./views/tenant/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/tenant/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/tenant/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/tenant/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/tenant/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/tenant/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/tenant/frontend/shop/product_details/product-details.blade.php:An error occurred
+./views/tenant/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./views/tenant/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./views/tenant/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./views/tenant/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/tenant/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./views/tenant/frontend/shop/checkout/checkout_page.blade.php:Login
+./views/tenant/frontend/pages/package/order-page.blade.php:Please Wait
+./views/tenant/frontend/pages/package/order-page.blade.php:Login
+./views/tenant/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./views/tenant/frontend/pages/package/order-page.blade.php:Login
+./views/tenant/frontend/user/dashboard/order-details.blade.php:order
+./views/tenant/frontend/user/dashboard/order-details.blade.php:order details
+./views/tenant/frontend/user/dashboard/order-details.blade.php:billing information
+./views/tenant/frontend/user/dashboard/order-details.blade.php:product
+./views/tenant/frontend/user/dashboard/order-details.blade.php:subtotal
+./views/tenant/frontend/user/dashboard/order-details.blade.php:Size
+./views/tenant/frontend/user/dashboard/order-details.blade.php:Color
+./views/tenant/frontend/user/dashboard/order-details.blade.php:subtotal
+./views/tenant/frontend/user/dashboard/order-details.blade.php:coupon discount
+./views/tenant/frontend/user/dashboard/order-details.blade.php:tax
+./views/tenant/frontend/user/dashboard/order-details.blade.php:shipping cost
+./views/tenant/frontend/user/dashboard/order-details.blade.php:total
+./views/tenant/frontend/user/dashboard/order-details.blade.php:payment method
+./views/tenant/frontend/user/dashboard/order-details.blade.php:cash on delivery
+./views/tenant/frontend/user/dashboard/order-details.blade.php:Order
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:order
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:order details
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:billing information
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:product
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:subtotal
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:Size
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:Color
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:subtotal
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:coupon discount
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:tax
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:shipping cost
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:total
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:payment method
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:Cash on delivery
+./views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:Order
+./views/tenant/frontend/user/login.blade.php:Don'/t have an account
+./views/tenant/admin/product-order-manage/order-settings.blade.php:Order Settings
+./views/tenant/admin/product-order-manage/order-manage-all.blade.php:Update Status
+./views/tenant/admin/product-order-manage/order-report.blade.php:Order Report
+./views/tenant/admin/product-order-manage/order-success-page.blade.php:Order Success Page Settings
+./views/tenant/admin/product-order-manage/order-view.blade.php:Order
+./views/tenant/admin/product-order-manage/order-view.blade.php:order details
+./views/tenant/admin/product-order-manage/order-view.blade.php:billing information
+./views/tenant/admin/product-order-manage/order-view.blade.php:product
+./views/tenant/admin/product-order-manage/order-view.blade.php:subtotal
+./views/tenant/admin/product-order-manage/order-view.blade.php:Size
+./views/tenant/admin/product-order-manage/order-view.blade.php:Color
+./views/tenant/admin/product-order-manage/order-view.blade.php:subtotal
+./views/tenant/admin/product-order-manage/order-view.blade.php:coupon discount
+./views/tenant/admin/product-order-manage/order-view.blade.php:tax
+./views/tenant/admin/product-order-manage/order-view.blade.php:shipping cost
+./views/tenant/admin/product-order-manage/order-view.blade.php:total
+./views/tenant/admin/product-order-manage/order-view.blade.php:payment method
+./views/tenant/admin/product-order-manage/order-view.blade.php:Cash on delivery
+./views/tenant/admin/product-order-manage/order-manage-completed.blade.php:Update Status
+./views/tenant/admin/product-order-manage/order-manage-pending.blade.php:Update Status
+./views/tenant/admin/product-order-manage/order-manage-in-progress.blade.php:Update Status
+./views/tenant/admin/product-order-manage/order-cancel-page.blade.php:Order Cancel Page Settings
+./views/tenant/admin/admin-role-manage/role/index.blade.php:New Role
+./views/tenant/admin/admin-role-manage/edit-user.blade.php:All Admin
+./views/tenant/admin/admin-role-manage/all-user.blade.php:Change Password
+./views/tenant/admin/partials/footer.blade.php:Are you sure?
+./views/tenant/admin/partials/footer.blade.php:You would not be able to revert this item!
+./views/tenant/admin/partials/footer.blade.php:Are you sure to make this language as a default language?
+./views/tenant/admin/partials/footer.blade.php:Languages will be turn changed as default
+./views/tenant/admin/partials/footer.blade.php:Are you sure to approve this payment?
+./views/tenant/admin/payment-logs/payment-report.blade.php:Payment Report
+./views/tenant/admin/languages/index.blade.php:Default
+./views/tenant/admin/languages/index.blade.php:Draft
+./views/tenant/admin/languages/index.blade.php:RTL
+./views/tenant/admin/languages/index.blade.php:Draft
+./views/tenant/admin/languages/index.blade.php:RTL
+./views/tenant/admin/languages/index.blade.php:Draft
+./views/tenant/admin/languages/index.blade.php:RTL
+./views/tenant/admin/menu/menu-edit.blade.php:URL
+./views/tenant/admin/menu/menu-edit.blade.php:Link Text
+./views/tenant/admin/menu/menu-edit.blade.php:Updating

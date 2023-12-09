@@ -1,0 +1,5 @@
+db/*
+.env
+htdocs/assets/tenant/uploads/media-uploader/*
+htdocs/core/.env
+htdocs/assets/tenant/*

@@ -1,0 +1,963 @@
+./plugins/PageBuilder/views/tenant/theme_one/contact/contact-area.blade.php:Submitting..
+./plugins/PageBuilder/views/tenant/theme_one/contact/contact-area.blade.php:Submit Message
+./plugins/PageBuilder/views/tenant/theme_one/contact/contact-area.blade.php:Submit Message
+./plugins/PageBuilder/views/tenant/theme_two/contact/contact-area.blade.php:Submitting..
+./plugins/PageBuilder/views/tenant/theme_two/contact/contact-area.blade.php:Submit Message
+./plugins/PageBuilder/views/tenant/theme_two/contact/contact-area.blade.php:Submit Message
+./plugins/PageBuilder/views/tenant/hexfashion/contact/contact-area.blade.php:Submitting..
+./plugins/PageBuilder/views/tenant/hexfashion/contact/contact-area.blade.php:Submit Message
+./plugins/PageBuilder/views/tenant/hexfashion/contact/contact-area.blade.php:Submit Message
+./plugins/PageBuilder/views/tenant/furnito/contact/contact-area.blade.php:Submitting..
+./plugins/PageBuilder/views/tenant/furnito/contact/contact-area.blade.php:Submit Message
+./plugins/PageBuilder/views/tenant/furnito/contact/contact-area.blade.php:Submit Message
+./plugins/PageBuilder/views/tenant/contact/contact-area.blade.php:Submitting..
+./plugins/PageBuilder/views/tenant/contact/contact-area.blade.php:Submit Message
+./plugins/PageBuilder/views/tenant/contact/contact-area.blade.php:Submit Message
+./Modules/CouponManage/Resources/views/all-coupon.blade.php:Percentage
+./Modules/CouponManage/Resources/views/all-coupon.blade.php:Amount
+./Modules/CouponManage/Resources/views/all-coupon.blade.php:Publish
+./Modules/CouponManage/Resources/views/all-coupon.blade.php:Draft
+./Modules/CouponManage/Resources/views/all-coupon.blade.php:Percentage
+./Modules/CouponManage/Resources/views/all-coupon.blade.php:Amount
+./Modules/CouponManage/Resources/views/all-coupon.blade.php:Draft
+./Modules/CouponManage/Resources/views/all-coupon.blade.php:Publish
+./Modules/Wallet/Resources/views/backend/history.blade.php:Are you sure to change status?
+./Modules/Wallet/Resources/views/backend/wallet-settings.blade.php:Are you sure to change status?
+./Modules/Wallet/Resources/views/backend/wallet-lists.blade.php:Are you sure to change status?
+./Modules/CountryManage/Resources/views/tenant/admin/all-country.blade.php:Publish
+./Modules/CountryManage/Resources/views/tenant/admin/all-country.blade.php:Draft
+./Modules/CountryManage/Resources/views/tenant/admin/all-country.blade.php:Publish
+./Modules/CountryManage/Resources/views/tenant/admin/all-country.blade.php:Draft
+./Modules/CountryManage/Resources/views/tenant/admin/all-state.blade.php:Publish
+./Modules/CountryManage/Resources/views/tenant/admin/all-state.blade.php:Draft
+./Modules/CountryManage/Resources/views/tenant/admin/all-state.blade.php:Publish
+./Modules/CountryManage/Resources/views/tenant/admin/all-state.blade.php:Draft
+./Modules/Service/Resources/views/tenant/frontend/service/service-category.blade.php:Anonymous
+./Modules/Campaign/Resources/views/vendor/edit.blade.php:Set percentage first
+./Modules/Campaign/Resources/views/vendor/edit.blade.php:Set fixed date first
+./Modules/Campaign/Resources/views/vendor/new.blade.php:Set percentage first
+./Modules/Campaign/Resources/views/vendor/new.blade.php:Set fixed date first
+./Modules/Campaign/Resources/views/backend/edit.blade.php:Set percentage first
+./Modules/Campaign/Resources/views/backend/edit.blade.php:Set fixed date first
+./Modules/Campaign/Resources/views/backend/new.blade.php:Set percentage first
+./Modules/Campaign/Resources/views/backend/new.blade.php:Set fixed date first
+./Modules/Attributes/Resources/views/backend/child-category/all.blade.php:An error occurred
+./Modules/TestManage/Http/PageBuilder/Addons/TestAddon.php:Test Addon for TestManage
+./Modules/MobileApp/Resources/views/intro/edit.blade.php:List
+./Modules/MobileApp/Resources/views/intro/edit.blade.php:Title
+./Modules/MobileApp/Resources/views/intro/edit.blade.php:Mobile intro Title...
+./Modules/MobileApp/Resources/views/intro/edit.blade.php:Description
+./Modules/MobileApp/Resources/views/intro/edit.blade.php:Mobile intro Description...
+./Modules/MobileApp/Resources/views/intro/edit.blade.php:Update
+./Modules/MobileApp/Resources/views/intro/list.blade.php:Create
+./Modules/MobileApp/Resources/views/intro/list.blade.php:Sl NO
+./Modules/MobileApp/Resources/views/intro/list.blade.php:Title
+./Modules/MobileApp/Resources/views/intro/list.blade.php:Description
+./Modules/MobileApp/Resources/views/intro/list.blade.php:image
+./Modules/MobileApp/Resources/views/intro/list.blade.php:Action
+./Modules/MobileApp/Resources/views/mobile-slider/list.blade.php:Create
+./Modules/MobileApp/Resources/views/mobile-slider/list.blade.php:Sl NO
+./Modules/MobileApp/Resources/views/mobile-slider/list.blade.php:Title
+./Modules/MobileApp/Resources/views/mobile-slider/list.blade.php:Description
+./Modules/MobileApp/Resources/views/mobile-slider/list.blade.php:image
+./Modules/MobileApp/Resources/views/mobile-slider/list.blade.php:Button Text
+./Modules/MobileApp/Resources/views/mobile-slider/list.blade.php:Button URL
+./Modules/MobileApp/Resources/views/mobile-slider/list.blade.php:Action
+./Modules/MobileApp/Http/Controllers/MobileSliderController.php:Successfully Created Mobile Slider
+./Modules/MobileApp/Http/Controllers/MobileSliderController.php:Successfully updated mobile slider
+./Modules/MobileApp/Http/Controllers/MobileCampaignController.php:Successfully campaign updated
+./Modules/MobileApp/Http/Controllers/AdminMobileController.php:Terms and condition
+./Modules/MobileApp/Http/Controllers/AdminMobileController.php:Privacy and policy
+./Modules/MobileApp/Http/Controllers/MobileIntrosController.php:Mobile Intro created successfully
+./Modules/MobileApp/Http/Controllers/MobileIntrosController.php:Failed to create mobile intro
+./Modules/MobileApp/Http/Controllers/MobileIntrosController.php:Mobile Intro updated successfully
+./Modules/MobileApp/Http/Controllers/MobileIntrosController.php:Failed to update mobile intro
+./Modules/MobileApp/Http/Controllers/MobileIntrosController.php:Successfully delete mobile intro.
+./Modules/MobileApp/Http/Controllers/MobileIntrosController.php:Failed to delete mobile intro.
+./Modules/MobileApp/Http/Controllers/Api/V1/UserController.php:Shipping zone not found on the server.
+./Modules/MobileApp/Http/Controllers/Api/V1/UserController.php:Successfully Deleted Shipping Zone
+./Modules/MobileApp/Http/Controllers/Api/V1/UserController.php:You are not eligible to delete this shipping address
+./Modules/Blog/Resources/views/landlord/frontend/blog/blog-category.blade.php:Anonymous
+./Modules/Blog/Resources/views/landlord/frontend/blog/blog-search.blade.php:Anonymous
+./Modules/Blog/Resources/views/landlord/frontend/blog/blog-search.blade.php:Read More
+./Modules/Blog/Resources/views/landlord/frontend/blog/blog-single.blade.php:Don'/t have an account
+./Modules/Blog/Resources/views/landlord/frontend/blog/blog-tags.blade.php:Anonymous
+./Modules/Blog/Resources/views/landlord/admin/blog/blog-new.blade.php:Draft
+./Modules/Blog/Resources/views/landlord/admin/blog/blog-new.blade.php:Publish
+./Modules/Blog/Resources/views/landlord/admin/blog/blog-edit.blade.php:Draft
+./Modules/Blog/Resources/views/landlord/admin/blog/blog-edit.blade.php:Publish
+./Modules/Blog/Resources/views/tenant/frontend/blog/blog-single.blade.php:Don'/t have an account
+./Modules/SupportTicket/Resources/views/landlord/admin/support-ticket/page-settings.blade.php:Ticket Page Settings
+./Modules/SupportTicket/Resources/views/landlord/admin/support-ticket/new-ticket.blade.php:New Ticket
+./Modules/SupportTicket/Resources/views/tenant/admin/support-ticket/page-settings.blade.php:Ticket Page Settings
+./Modules/SupportTicket/Resources/views/tenant/admin/support-ticket/new-ticket.blade.php:New Ticket
+./Modules/RefundModule/Resources/views/tenant/admin/chat/page-settings.blade.php:Ticket Page Settings
+./Modules/RefundModule/Resources/views/tenant/admin/chat/new-ticket.blade.php:New Refund Message
+./Modules/RefundModule/Resources/views/tenant/admin/refund/view.blade.php:Order
+./Modules/RefundModule/Resources/views/tenant/admin/refund/view.blade.php:order details
+./Modules/RefundModule/Resources/views/tenant/admin/refund/view.blade.php:billing information
+./Modules/RefundModule/Resources/views/tenant/admin/refund/view.blade.php:product
+./Modules/RefundModule/Resources/views/tenant/admin/refund/view.blade.php:subtotal
+./Modules/RefundModule/Resources/views/tenant/admin/refund/view.blade.php:total
+./Modules/RefundModule/Resources/views/tenant/admin/refund/view.blade.php:payment method
+./Modules/RefundModule/Resources/views/tenant/admin/refund/view.blade.php:Cash on delivery
+./Modules/Product/Resources/views/components/categories.blade.php:Categories
+./Modules/Product/Resources/views/components/categories.blade.php:Category
+./Modules/Product/Resources/views/components/categories.blade.php:Select Category
+./Modules/Product/Resources/views/components/categories.blade.php:Sub Category
+./Modules/Product/Resources/views/components/categories.blade.php:Select Sub Category
+./Modules/Product/Resources/views/components/categories.blade.php:Child Category
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Meta SEO
+./Modules/Product/Resources/views/components/meta-seo.blade.php:General meta info
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Facebook meta
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Twitter meta
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Title
+./Modules/Product/Resources/views/components/meta-seo.blade.php:General info title
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Description
+./Modules/Product/Resources/views/components/meta-seo.blade.php:General info description
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Facebook Info
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Title
+./Modules/Product/Resources/views/components/meta-seo.blade.php:General info title
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Description
+./Modules/Product/Resources/views/components/meta-seo.blade.php:General info description
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Twitter Info
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Title
+./Modules/Product/Resources/views/components/meta-seo.blade.php:General info title
+./Modules/Product/Resources/views/components/meta-seo.blade.php:Description
+./Modules/Product/Resources/views/components/meta-seo.blade.php:General info description
+./Modules/Product/Resources/views/components/settings.blade.php:Product Settings
+./Modules/Product/Resources/views/components/settings.blade.php:Minimum quantity of Purchase
+./Modules/Product/Resources/views/components/settings.blade.php:Minimum quantity of purchase
+./Modules/Product/Resources/views/components/settings.blade.php:Maximum quantity of Purchase
+./Modules/Product/Resources/views/components/settings.blade.php:Maximum quantity of Purchase
+./Modules/Product/Resources/views/components/settings.blade.php:Inventory Warning
+./Modules/Product/Resources/views/components/delivery-option.blade.php:Delivery Options
+./Modules/Product/Resources/views/components/policy.blade.php:Product Shipping and Return Policy
+./Modules/Product/Resources/views/components/policy.blade.php:Policy Description
+./Modules/Product/Resources/views/components/policy.blade.php:Type Description
+./Modules/Product/Resources/views/components/general-info.blade.php:General Information
+./Modules/Product/Resources/views/components/general-info.blade.php:Name
+./Modules/Product/Resources/views/components/general-info.blade.php:Write product Name...
+./Modules/Product/Resources/views/components/general-info.blade.php:Slug
+./Modules/Product/Resources/views/components/general-info.blade.php:Write product slug...
+./Modules/Product/Resources/views/components/general-info.blade.php:Summery
+./Modules/Product/Resources/views/components/general-info.blade.php:Write product Summery...
+./Modules/Product/Resources/views/components/general-info.blade.php:Description
+./Modules/Product/Resources/views/components/general-info.blade.php:Type Description
+./Modules/Product/Resources/views/components/general-info.blade.php:Brand
+./Modules/Product/Resources/views/components/general-info.blade.php:Select brand
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Product Inventory
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Sku
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Custom Unique Code for this product.
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Quantity
+./Modules/Product/Resources/views/components/product-inventory.blade.php:This will be replaced with the sum of inventory items. if any inventory  item is registered.
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Unit
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Select Unit
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Select Unit
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Unit Of Measurement
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Enter Unit Of Measurement
+./Modules/Product/Resources/views/components/product-inventory.blade.php:Enter the number here
+./Modules/Product/Resources/views/components/tags-and-badge.blade.php:Product Tags and Badge
+./Modules/Product/Resources/views/components/tags-and-badge.blade.php:Tags
+./Modules/Product/Resources/views/components/tags-and-badge.blade.php:Labels
+./Modules/Product/Resources/views/components/tags-and-badge.blade.php:Permanent
+./Modules/Product/Resources/views/components/tags-and-badge.blade.php:Temporary
+./Modules/Product/Resources/views/components/table/bulk-action-js.blade.php:Deleting
+./Modules/Product/Resources/views/components/variant-info/js.blade.php:Select both attribute name and value
+./Modules/Product/Resources/views/components/variant-info/js.blade.php:Select attribute value
+./Modules/Product/Resources/views/components/product-price.blade.php:Base Cost
+./Modules/Product/Resources/views/components/product-price.blade.php:Base Cost...
+./Modules/Product/Resources/views/components/product-price.blade.php:Purchase price of this product.
+./Modules/Product/Resources/views/components/product-price.blade.php:Regular Price
+./Modules/Product/Resources/views/components/product-price.blade.php:Enter Regular Price...
+./Modules/Product/Resources/views/components/product-price.blade.php:This price will display like this
+./Modules/Product/Resources/views/components/product-price.blade.php:Sale Price
+./Modules/Product/Resources/views/components/product-price.blade.php:Enter Sale Price...
+./Modules/Product/Resources/views/components/product-price.blade.php:This will be your product selling price
+./Modules/Product/Resources/views/create.blade.php:Add Products
+./Modules/Product/Resources/views/create.blade.php:General Info
+./Modules/Product/Resources/views/create.blade.php:Price
+./Modules/Product/Resources/views/create.blade.php:Images
+./Modules/Product/Resources/views/create.blade.php:Inventory
+./Modules/Product/Resources/views/create.blade.php:Tags & Label
+./Modules/Product/Resources/views/create.blade.php:Attributes
+./Modules/Product/Resources/views/create.blade.php:Categories
+./Modules/Product/Resources/views/create.blade.php:Delivery Option
+./Modules/Product/Resources/views/create.blade.php:Product Meta
+./Modules/Product/Resources/views/create.blade.php:Product Settings
+./Modules/Product/Resources/views/create.blade.php:Shipping & Return Policy
+./Modules/Product/Resources/views/create.blade.php:Create Product
+./Modules/Product/Resources/views/trash.blade.php:Name
+./Modules/Product/Resources/views/trash.blade.php:Brand
+./Modules/Product/Resources/views/trash.blade.php:Categories
+./Modules/Product/Resources/views/trash.blade.php:Stock Qty
+./Modules/Product/Resources/views/trash.blade.php:Actions
+./Modules/Product/Resources/views/trash.blade.php:Deleting
+./Modules/Product/Resources/views/review.blade.php:ID
+./Modules/Product/Resources/views/review.blade.php:Image
+./Modules/Product/Resources/views/review.blade.php:Product
+./Modules/Product/Resources/views/review.blade.php:User
+./Modules/Product/Resources/views/review.blade.php:Rating
+./Modules/Product/Resources/views/review.blade.php:Review Text
+./Modules/Product/Resources/views/review.blade.php:Actions
+./Modules/Product/Resources/views/edit.blade.php:Edit Products
+./Modules/Product/Resources/views/edit.blade.php:General Info
+./Modules/Product/Resources/views/edit.blade.php:Price
+./Modules/Product/Resources/views/edit.blade.php:Images
+./Modules/Product/Resources/views/edit.blade.php:Inventory
+./Modules/Product/Resources/views/edit.blade.php:Tags & Label
+./Modules/Product/Resources/views/edit.blade.php:Attributes
+./Modules/Product/Resources/views/edit.blade.php:Categories
+./Modules/Product/Resources/views/edit.blade.php:Delivery Option
+./Modules/Product/Resources/views/edit.blade.php:Product Meta
+./Modules/Product/Resources/views/edit.blade.php:Product Settings
+./Modules/Product/Resources/views/edit.blade.php:Shipping & Return Policy
+./Modules/Product/Resources/views/edit.blade.php:Save Changes
+./Modules/Product/Resources/views/edit.blade.php:Select both attribute name and value
+./Modules/Product/Resources/views/edit.blade.php:Select attribute value
+./Modules/Product/Resources/views/search.blade.php:ID
+./Modules/Product/Resources/views/search.blade.php:Name
+./Modules/Product/Resources/views/search.blade.php:Brand
+./Modules/Product/Resources/views/search.blade.php:Categories
+./Modules/Product/Resources/views/search.blade.php:Stock Qty
+./Modules/Product/Resources/views/search.blade.php:Status
+./Modules/Product/Resources/views/search.blade.php:Actions
+./Modules/Product/Http/Requests/ProductStoreRequest.php:Cost filed is required for your accounting...
+./Modules/Product/Http/Requests/ProductStoreRequest.php:Regular price is required.
+./Modules/Product/Http/Requests/ProductStoreRequest.php:SKU Stock Kipping Unit is required
+./Modules/Product/Http/Requests/ProductStoreRequest.php:Please Select a unit type
+./Modules/Product/Http/Requests/ProductStoreRequest.php:UOM Unit of measurement field is required.
+./Modules/Product/Http/Traits/ProductGlobalTrait.php:Successfully updated status
+./Modules/Product/Http/Traits/ProductGlobalTrait.php:Failed to update status
+./app/Http/Controllers/Landlord/Frontend/PaymentLogController.php:Custom Sub Domain Required
+./app/Http/Controllers/Landlord/Frontend/PaymentLogController.php:Transaction ID Required
+./app/Http/Controllers/Landlord/Frontend/PaymentLogController.php:Transaction Attachment Required
+./app/Helpers/FlashMsg.php:Signup Success. Pending admin approval.
+./app/Helpers/FlashMsg.php:Signup Success
+./app/Helpers/FlashMsg.php:Signup Failed
+./app/Helpers/FlashMsg.php:Teacher approve Success
+./app/Helpers/FlashMsg.php:Teacher approve Failed
+./storage/framework/views/6b7bbfd9406cb31a1c395b11f6152d9a96691cfe.php:Order Success Page Settings
+./storage/framework/views/0f5b26ac41489072ae596c3f995bb6dbb3b662e0.php:Submitting..
+./storage/framework/views/0f5b26ac41489072ae596c3f995bb6dbb3b662e0.php:Submit Message
+./storage/framework/views/0f5b26ac41489072ae596c3f995bb6dbb3b662e0.php:Submit Message
+./storage/framework/views/b66cf31be2b10faee337bb83559fb8a4488d4851.php:Don'/t have an account
+./storage/framework/views/7b7c446175b8235aeba73db57206d26bd7fb228d.php:Product Shipping and Return Policy
+./storage/framework/views/7b7c446175b8235aeba73db57206d26bd7fb228d.php:Policy Description
+./storage/framework/views/7b7c446175b8235aeba73db57206d26bd7fb228d.php:Type Description
+./storage/framework/views/d8daa8c204b48a86408c3a80e269d616e51d41d2.php:Default
+./storage/framework/views/d8daa8c204b48a86408c3a80e269d616e51d41d2.php:RTL
+./storage/framework/views/d8daa8c204b48a86408c3a80e269d616e51d41d2.php:Draft
+./storage/framework/views/d8daa8c204b48a86408c3a80e269d616e51d41d2.php:RTL
+./storage/framework/views/d8daa8c204b48a86408c3a80e269d616e51d41d2.php:Draft
+./storage/framework/views/d8daa8c204b48a86408c3a80e269d616e51d41d2.php:RTL
+./storage/framework/views/d8daa8c204b48a86408c3a80e269d616e51d41d2.php:Draft
+./storage/framework/views/90c2e31c0425bb1164c06d4ccba85d297e08a47f.php:Select both attribute name and value
+./storage/framework/views/90c2e31c0425bb1164c06d4ccba85d297e08a47f.php:Select attribute value
+./storage/framework/views/4450abb1389738f7d9a13e3fc6f37628607e3c6a.php:Page Settings
+./storage/framework/views/1e6307b5da58111eb230a292bac28410d2d9df94.php:Are you sure to change status?
+./storage/framework/views/85bbacc04aab6f51766e90bc5a4f352cc49f4ec1.php:Heading Typography Settings
+./storage/framework/views/35df85087873533568d428471718414e30f759be.php:ID
+./storage/framework/views/35df85087873533568d428471718414e30f759be.php:Name
+./storage/framework/views/35df85087873533568d428471718414e30f759be.php:Brand
+./storage/framework/views/35df85087873533568d428471718414e30f759be.php:Categories
+./storage/framework/views/35df85087873533568d428471718414e30f759be.php:Stock Qty
+./storage/framework/views/35df85087873533568d428471718414e30f759be.php:Status
+./storage/framework/views/35df85087873533568d428471718414e30f759be.php:Actions
+./storage/framework/views/891e0109f0a6343af4371f1ca13823ba0dc28351.php:Anonymous
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:General Information
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Name
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Write product Name...
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Slug
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Write product slug...
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Summery
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Write product Summery...
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Description
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Type Description
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Brand
+./storage/framework/views/3b2de5da0740f55f2da4e9bd54f7db9cdf42693c.php:Select brand
+./storage/framework/views/58a3e1815738b32809c70409bb3d6d1f18839b1d.php:Publish
+./storage/framework/views/58a3e1815738b32809c70409bb3d6d1f18839b1d.php:Draft
+./storage/framework/views/58a3e1815738b32809c70409bb3d6d1f18839b1d.php:Publish
+./storage/framework/views/58a3e1815738b32809c70409bb3d6d1f18839b1d.php:Draft
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:An error occurred
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Select all attribute to proceed
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Something went wrong
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:An error occurred
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Something went wrong
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Something went wrong
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Item added to compare
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Something went wrong
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Item added to compare
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Something went wrong
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Something went wrong
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:Attribute not available
+./storage/framework/views/94cbd3e13fabb65c767009a39b32c77add40ffe4.php:An error occurred
+./storage/framework/views/65731f18e454b9d84ae34bdf510bafc1c9dc9b24.php:Please Wait..
+./storage/framework/views/65731f18e454b9d84ae34bdf510bafc1c9dc9b24.php:Login
+./storage/framework/views/65731f18e454b9d84ae34bdf510bafc1c9dc9b24.php:Login Success.. Redirecting ..
+./storage/framework/views/65731f18e454b9d84ae34bdf510bafc1c9dc9b24.php:Login
+./storage/framework/views/77728979404c1e3df8ff80d95f7c0cd7e6ff20e9.php:Don'/t have an account
+./storage/framework/views/4e92dbe835aa6c587321cf9c49a993a05de9e735.php:URL
+./storage/framework/views/4e92dbe835aa6c587321cf9c49a993a05de9e735.php:Link Text
+./storage/framework/views/4e92dbe835aa6c587321cf9c49a993a05de9e735.php:Register
+./storage/framework/views/4e92dbe835aa6c587321cf9c49a993a05de9e735.php:Login
+./storage/framework/views/4e92dbe835aa6c587321cf9c49a993a05de9e735.php:Logout
+./storage/framework/views/4e92dbe835aa6c587321cf9c49a993a05de9e735.php:Dashboard
+./storage/framework/views/4e92dbe835aa6c587321cf9c49a993a05de9e735.php:Default Auth Item
+./storage/framework/views/4e92dbe835aa6c587321cf9c49a993a05de9e735.php:Updating
+./storage/framework/views/c9b36e2488f48753e45568c808707f9d37709c2d.php:URL
+./storage/framework/views/c9b36e2488f48753e45568c808707f9d37709c2d.php:Link Text
+./storage/framework/views/c9b36e2488f48753e45568c808707f9d37709c2d.php:Updating
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:Please Wait
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:Login
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:Login Success.. Redirecting ..
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:Login
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:An error occurred
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:Select all attribute to proceed
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:An error occurred
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:Select all attribute to proceed
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:An error occurred
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:Select all attribute to proceed
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:An error occurred
+./storage/framework/views/6ef81230a8cc8c064b64ccd39e0cf5805de35cca.php:Select all attribute to proceed
+./storage/framework/views/8b5cd8575017b32d5f7200df992c7d767b37e033.php:Payment Report
+./storage/framework/views/e5bf56ee715b84eb84a32a2165c220b249f8bd55.php:Don'/t have an account
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Add Products
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:General Info
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Price
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Images
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Inventory
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Tags & Label
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Attributes
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Categories
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Delivery Option
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Product Meta
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Product Settings
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Shipping & Return Policy
+./storage/framework/views/f0a68013ebdf41bc702dbe9ffa771088c36c4941.php:Create Product
+./storage/framework/views/125e41dac4d92a506cd4a907a1a0b3fa6bf95747.php:Delivery Options
+./storage/framework/views/d17bdba8e3bcb34cbcda89ccc281bf40ef0bb288.php:Cancel
+./storage/framework/views/63d90bd4f5fd24193c420ac249dd76708ef3407d.php:Please Wait
+./storage/framework/views/63d90bd4f5fd24193c420ac249dd76708ef3407d.php:Login
+./storage/framework/views/63d90bd4f5fd24193c420ac249dd76708ef3407d.php:Login Success.. Redirecting ..
+./storage/framework/views/63d90bd4f5fd24193c420ac249dd76708ef3407d.php:Login
+./storage/framework/views/2bec9f13094b16f921ae4af7f2f33e8ca4292696.php:Anonymous
+./storage/framework/views/0bf0666a26e2239957335c970261cfbbe94f64e9.php:Order Report
+./storage/framework/views/a70a13d5757b6d7209c2afa14879aebd8ffb9c8a.php:Are you sure?
+./storage/framework/views/a70a13d5757b6d7209c2afa14879aebd8ffb9c8a.php:You would not be able to revert this item!
+./storage/framework/views/a70a13d5757b6d7209c2afa14879aebd8ffb9c8a.php:Are you sure to make this language as a default language?
+./storage/framework/views/a70a13d5757b6d7209c2afa14879aebd8ffb9c8a.php:Languages will be turn changed as default
+./storage/framework/views/a70a13d5757b6d7209c2afa14879aebd8ffb9c8a.php:Are you sure to approve this payment?
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:Please Wait
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:Login
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:Login Success.. Redirecting ..
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:Login
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:An error occurred
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:Select all attribute to proceed
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:An error occurred
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:Select all attribute to proceed
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:An error occurred
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:Select all attribute to proceed
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:An error occurred
+./storage/framework/views/c4b61ad8acf6aadcd85ec4f4f3c5b7675485863f.php:Select all attribute to proceed
+./storage/framework/views/03a99ab56c2ef0292771e457bee439cbb154c623.php:Amount Per Month In
+./storage/framework/views/03a99ab56c2ef0292771e457bee439cbb154c623.php:Amount Per Day In Last 30Days
+./storage/framework/views/2c4875b8ab19aa47734b640c4b7b2a6e5109db0d.php:Login
+./storage/framework/views/2c4875b8ab19aa47734b640c4b7b2a6e5109db0d.php:Get Started
+./storage/framework/views/2c4875b8ab19aa47734b640c4b7b2a6e5109db0d.php:Get Started
+./storage/framework/views/2c4875b8ab19aa47734b640c4b7b2a6e5109db0d.php:Login
+./storage/framework/views/2c4875b8ab19aa47734b640c4b7b2a6e5109db0d.php:Get Started
+./storage/framework/views/2c4875b8ab19aa47734b640c4b7b2a6e5109db0d.php:Get Started
+./storage/framework/views/e7860874e78c2c05237925c460bc5d36cb398f13.php:Verify your email
+./storage/framework/views/5689c98d0bc913388a2a514484493a359fea65b1.php:Update Status
+./storage/framework/views/878dce4fb2f8fd3e912bf20e1339f52a198483a4.php:Don'/t have an account
+./storage/framework/views/878dce4fb2f8fd3e912bf20e1339f52a198483a4.php:Please Wait
+./storage/framework/views/878dce4fb2f8fd3e912bf20e1339f52a198483a4.php:Login
+./storage/framework/views/878dce4fb2f8fd3e912bf20e1339f52a198483a4.php:Login Success.. Redirecting ..
+./storage/framework/views/878dce4fb2f8fd3e912bf20e1339f52a198483a4.php:Login
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Edit Products
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:General Info
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Price
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Images
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Inventory
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Tags & Label
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Attributes
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Categories
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Delivery Option
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Product Meta
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Product Settings
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Shipping & Return Policy
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Save Changes
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Select both attribute name and value
+./storage/framework/views/ccf1240f65a4c8ae23d312cc70be55f41f4c1b11.php:Select attribute value
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Product Inventory
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Sku
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Custom Unique Code for this product.
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Quantity
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:This will be replaced with the sum of inventory items. if any inventory  item is registered.
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Unit
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Select Unit
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Select Unit
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Unit Of Measurement
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Enter Unit Of Measurement
+./storage/framework/views/b981f13c3674a81cbb60d7896576ad20b209ae7e.php:Enter the number here
+./storage/framework/views/63a099a908ac4b25647257868ddb14fa41e02368.php:Don'/t have an account
+./storage/framework/views/63a099a908ac4b25647257868ddb14fa41e02368.php:Please Wait
+./storage/framework/views/63a099a908ac4b25647257868ddb14fa41e02368.php:Login
+./storage/framework/views/63a099a908ac4b25647257868ddb14fa41e02368.php:Login Success.. Redirecting ..
+./storage/framework/views/63a099a908ac4b25647257868ddb14fa41e02368.php:Login
+./storage/framework/views/1ec0c3f91b9fc652f6e0045ff025b9e5f1d9ed51.php:Order Settings
+./storage/framework/views/8183911192b86538536d7c3eda564e1033afc8f8.php:Publish
+./storage/framework/views/8183911192b86538536d7c3eda564e1033afc8f8.php:Draft
+./storage/framework/views/8183911192b86538536d7c3eda564e1033afc8f8.php:Publish
+./storage/framework/views/8183911192b86538536d7c3eda564e1033afc8f8.php:Draft
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:An error occurred
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:Select all attribute to proceed
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:An error occurred
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:An error occurred
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:An error occurred
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:Attribute not available
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:An error occurred
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:Select all attribute to proceed
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:An error occurred
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:Select all attribute to proceed
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:An error occurred
+./storage/framework/views/e4fb41eff651c332bc497f1057c3f1eca72c7208.php:Select all attribute to proceed
+./storage/framework/views/d0b8f962a91e7b931de73fefcfb78cf7ae9a2d45.php:Are you sure?
+./storage/framework/views/d0b8f962a91e7b931de73fefcfb78cf7ae9a2d45.php:You would not be able to revert this item!
+./storage/framework/views/d0b8f962a91e7b931de73fefcfb78cf7ae9a2d45.php:Are you sure to make this language as a default language?
+./storage/framework/views/d0b8f962a91e7b931de73fefcfb78cf7ae9a2d45.php:Languages will be turn changed as default
+./storage/framework/views/d0b8f962a91e7b931de73fefcfb78cf7ae9a2d45.php:Are you sure to approve this payment?
+./storage/framework/views/c0dae6fe84b2ad426d13b9e832b39ed47250bb06.php:Update Status
+./storage/framework/views/2d56c853e6a4852eca8b8664d865c81572e7db4e.php:Order Cancel Page Settings
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:Please Wait
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:Login
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:Login Success.. Redirecting ..
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:Login
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:An error occurred
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:Select all attribute to proceed
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:An error occurred
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:Select all attribute to proceed
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:An error occurred
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:Select all attribute to proceed
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:An error occurred
+./storage/framework/views/8a313d9e03790a6c050fe3586b15cdad286aee6f.php:Select all attribute to proceed
+./storage/framework/views/525131d784e080265ac02d982c6b9418fdd229aa.php:New Role
+./storage/framework/views/97019c662657eef9ef4761d89fb6032ffb312a08.php:Saving
+./storage/framework/views/ccf36fb8bf415b540e21b98033a306c453f0c7f3.php:Heading Typography Settings
+./storage/framework/views/07302a20d7a434dc0a2e94230d3f7271c5a5a065.php:Don'/t have an account
+./storage/framework/views/72542cec0aa79fe201e8cc634925752e01458927.php:Base Cost
+./storage/framework/views/72542cec0aa79fe201e8cc634925752e01458927.php:Base Cost...
+./storage/framework/views/72542cec0aa79fe201e8cc634925752e01458927.php:Purchase price of this product.
+./storage/framework/views/72542cec0aa79fe201e8cc634925752e01458927.php:Regular Price
+./storage/framework/views/72542cec0aa79fe201e8cc634925752e01458927.php:Enter Regular Price...
+./storage/framework/views/72542cec0aa79fe201e8cc634925752e01458927.php:This price will display like this
+./storage/framework/views/72542cec0aa79fe201e8cc634925752e01458927.php:Sale Price
+./storage/framework/views/72542cec0aa79fe201e8cc634925752e01458927.php:Enter Sale Price...
+./storage/framework/views/72542cec0aa79fe201e8cc634925752e01458927.php:This will be your product selling price
+./storage/framework/views/42d48c65c5970c11cdb25628ff6794fc22148c99.php:Update Status
+./storage/framework/views/1a35183874ed9444040968ccadb7fe5b7ff405f5.php:Edit Form
+./storage/framework/views/1a35183874ed9444040968ccadb7fe5b7ff405f5.php:Available Form Fields
+./storage/framework/views/0bc05fea5bccb1ca814620d367dbaffa5d02c1f2.php:Payment Gateway Settings
+./storage/framework/views/323adf679ce4193a42799be5e72d61987e635fe3.php:Third Party Scripts Settings
+./storage/framework/views/623eed291debb0f9badd7e1388b1c31c422a5cca.php:Don'/t have an account
+./storage/framework/views/623eed291debb0f9badd7e1388b1c31c422a5cca.php:Please Wait
+./storage/framework/views/623eed291debb0f9badd7e1388b1c31c422a5cca.php:Login
+./storage/framework/views/623eed291debb0f9badd7e1388b1c31c422a5cca.php:Login Success.. Redirecting ..
+./storage/framework/views/623eed291debb0f9badd7e1388b1c31c422a5cca.php:Login
+./storage/framework/views/2c84e733f30a4a7369259312eec954606bdfe7ce.php:Price Plan Settings
+./storage/framework/views/e7cc6327753302927eb9d18e49547dfbe8ad5baf.php:Product Tags and Badge
+./storage/framework/views/e7cc6327753302927eb9d18e49547dfbe8ad5baf.php:Tags
+./storage/framework/views/e7cc6327753302927eb9d18e49547dfbe8ad5baf.php:Labels
+./storage/framework/views/e7cc6327753302927eb9d18e49547dfbe8ad5baf.php:Permanent
+./storage/framework/views/e7cc6327753302927eb9d18e49547dfbe8ad5baf.php:Temporary
+./storage/framework/views/8156bbfb1858af98f784f1189d323ebf8b0366de.php:Submitting
+./storage/framework/views/c29214e7cad268bb9ace6ec2719b65742a629b0b.php:Order Success Page Settings
+./storage/framework/views/3385e7844f5c97e607c3bd33fe83b22d05a3f1dc.php:New Ticket
+./storage/framework/views/db0401766a9cbe50be99b17bb60b09ce288bf423.php:Update Status
+./storage/framework/views/d9bd4e3bdb2fc4c1899a893e7cbc273996834865.php:ID
+./storage/framework/views/d9bd4e3bdb2fc4c1899a893e7cbc273996834865.php:Image
+./storage/framework/views/d9bd4e3bdb2fc4c1899a893e7cbc273996834865.php:Product
+./storage/framework/views/d9bd4e3bdb2fc4c1899a893e7cbc273996834865.php:User
+./storage/framework/views/d9bd4e3bdb2fc4c1899a893e7cbc273996834865.php:Rating
+./storage/framework/views/d9bd4e3bdb2fc4c1899a893e7cbc273996834865.php:Review Text
+./storage/framework/views/d9bd4e3bdb2fc4c1899a893e7cbc273996834865.php:Actions
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Meta SEO
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:General meta info
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Facebook meta
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Twitter meta
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Title
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:General info title
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Description
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:General info description
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Facebook Info
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Title
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:General info title
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Description
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:General info description
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Twitter Info
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Title
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:General info title
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:Description
+./storage/framework/views/600ec956caf7192963b68187975181ae8c475fa8.php:General info description
+./storage/framework/views/6bc2fc9c2671b7bc79857f0fda44fa9fcc654b83.php:Please Wait
+./storage/framework/views/6bc2fc9c2671b7bc79857f0fda44fa9fcc654b83.php:Login
+./storage/framework/views/6bc2fc9c2671b7bc79857f0fda44fa9fcc654b83.php:Login Success.. Redirecting ..
+./storage/framework/views/6bc2fc9c2671b7bc79857f0fda44fa9fcc654b83.php:Login
+./storage/framework/views/262020d934cdb86288583b43b3891afbc2b3f7fe.php:Are you sure to delete this image
+./storage/framework/views/262020d934cdb86288583b43b3891afbc2b3f7fe.php:This image will remove permanently
+./storage/framework/views/37cb7751cca39cf0ed3d372e23da9b9bc59cd1b2.php:An error occurred
+./storage/framework/views/163af2fe79c8fb70622998db54ec087cf242bb9b.php:Draft
+./storage/framework/views/163af2fe79c8fb70622998db54ec087cf242bb9b.php:Publish
+./storage/framework/views/6681c0cb626dd16e64b986825ffd81936eed49b9.php:Categories
+./storage/framework/views/6681c0cb626dd16e64b986825ffd81936eed49b9.php:Category
+./storage/framework/views/6681c0cb626dd16e64b986825ffd81936eed49b9.php:Select Category
+./storage/framework/views/6681c0cb626dd16e64b986825ffd81936eed49b9.php:Sub Category
+./storage/framework/views/6681c0cb626dd16e64b986825ffd81936eed49b9.php:Select Sub Category
+./storage/framework/views/6681c0cb626dd16e64b986825ffd81936eed49b9.php:Child Category
+./storage/framework/views/c707076a2fa7d7833d8f7529ab200c30d2c34121.php:Are you sure to change status?
+./storage/framework/views/08bb45f90c8bbb993ce48ebcf9e2267809c9ba3e.php:Footer Global Vartiant Settings
+./storage/framework/views/192a1f1f92c87c809d2382e96e80ed563a7d463c.php:Custom Js
+./storage/framework/views/149e0bbdcd459725f7ff853927b0ea4353fc58b5.php:Ticket Page Settings
+./storage/framework/views/286b0ab8cc036a92ada501d773fc741cb771586a.php:Product Settings
+./storage/framework/views/286b0ab8cc036a92ada501d773fc741cb771586a.php:Minimum quantity of Purchase
+./storage/framework/views/286b0ab8cc036a92ada501d773fc741cb771586a.php:Minimum quantity of purchase
+./storage/framework/views/286b0ab8cc036a92ada501d773fc741cb771586a.php:Maximum quantity of Purchase
+./storage/framework/views/286b0ab8cc036a92ada501d773fc741cb771586a.php:Maximum quantity of Purchase
+./storage/framework/views/286b0ab8cc036a92ada501d773fc741cb771586a.php:Inventory Warning
+./storage/framework/views/90ff1f48071e4589f9d8759227c565d514a67a88.php:Deleting
+./storage/framework/views/c4966c1a226648610cb13dccbfdc76a657573abc.php:Deleting
+./storage/framework/views/77605d372080d980e662e9fed75639eb9449a598.php:Submitting..
+./storage/framework/views/77605d372080d980e662e9fed75639eb9449a598.php:Submit Message
+./storage/framework/views/77605d372080d980e662e9fed75639eb9449a598.php:Submit Message
+./storage/framework/views/0b42c9353adbf113a66e7c72f028aaba18a66af8.php:You would not be able to revert this item!
+./storage/framework/views/96c449fe1a2803cac498ff22008d58addafe1b25.php:Custom Domain Settings
+./storage/framework/views/f9a2114edfb142a30dde9bcd5634cec5c7648607.php:Are you sure to change status?
+./storage/framework/views/4f15bf7a6c2b6e404d50ce46cd90cda203a1b7ac.php:Change Password
+./storage/framework/views/ed1040cbfbe5ab4d47565c7f87c6ceb730db956e.php:Change Password
+./storage/framework/views/ba8c65c2a546294291c49a89a02091576adef81d.php:Order Cancel Page Settings
+./storage/framework/views/e67c3b88436f3a4cfbe2386cb49d149225795511.php:Please Wait
+./storage/framework/views/e67c3b88436f3a4cfbe2386cb49d149225795511.php:Login
+./storage/framework/views/e67c3b88436f3a4cfbe2386cb49d149225795511.php:Login Success.. Redirecting ..
+./storage/framework/views/e67c3b88436f3a4cfbe2386cb49d149225795511.php:Login
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:Order
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:order details
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:billing information
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:product
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:subtotal
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:Size
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:Color
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:subtotal
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:coupon discount
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:tax
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:shipping cost
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:total
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:payment method
+./storage/framework/views/05c07650a06b33419a7b4fc808ae685f32e2e0c7.php:Cash on delivery
+./packages/xgenious/paymentgateway/resources/views/authorizenet.blade.php:card number
+./packages/xgenious/paymentgateway/resources/views/authorizenet.blade.php:full name
+./packages/xgenious/paymentgateway/resources/views/authorizenet.blade.php:expiry
+./packages/xgenious/paymentgateway/resources/views/authorizenet.blade.php:cvc
+./public/js/app.js:./resources/js/app.js
+./public/js/app.js:./public/landlord/frontend/scss/landing.scss
+./public/landlord/js/app.js:./resources/js/app.js
+./public/landlord/js/app.js:./public/frontend/scss/landing.scss
+./resources/views/components/bulk-action-js.blade.php:Deleting
+./resources/views/components/btn/submit.blade.php:Submitting
+./resources/views/components/btn/update.blade.php:Updating
+./resources/views/components/btn/import.blade.php:Importing..
+./resources/views/components/btn/save.blade.php:Saving
+./resources/views/components/media-upload/js.blade.php:Are you sure to delete this image
+./resources/views/components/media-upload/js.blade.php:This image will remove permanently
+./resources/views/components/custom-js/contact-form-store.blade.php:Submitting..
+./resources/views/components/custom-js/contact-form-store.blade.php:Submit Message
+./resources/views/components/custom-js/contact-form-store.blade.php:Submit Message
+./resources/views/components/custom-js/ajax-login.blade.php:Please Wait..
+./resources/views/components/custom-js/ajax-login.blade.php:Login
+./resources/views/components/custom-js/ajax-login.blade.php:Login Success.. Redirecting ..
+./resources/views/components/custom-js/ajax-login.blade.php:Login
+./resources/views/components/tenant/product/quick-view-js.blade.php:An error occurred
+./resources/views/components/tenant/product/quick-view-js.blade.php:Select all attribute to proceed
+./resources/views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./resources/views/components/tenant/product/quick-view-js.blade.php:An error occurred
+./resources/views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./resources/views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./resources/views/components/tenant/product/quick-view-js.blade.php:Item added to compare
+./resources/views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./resources/views/components/tenant/product/quick-view-js.blade.php:Item added to compare
+./resources/views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./resources/views/components/tenant/product/quick-view-js.blade.php:Something went wrong
+./resources/views/components/tenant/product/quick-view-js.blade.php:Attribute not available
+./resources/views/components/tenant/product/quick-view-js.blade.php:An error occurred
+./resources/views/components/table/btn/swal/js.blade.php:You would not be able to revert this item!
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:order
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:order details
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:billing information
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:product
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:subtotal
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:Size
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:Color
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:subtotal
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:coupon discount
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:tax
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:shipping cost
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:total
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:payment method
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:Cash on delivery
+./resources/views/theme/hexfashion/user/dashboard/order-details.blade.php:Order
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:order
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:order details
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:billing information
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:product
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:subtotal
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:Size
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:Color
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:subtotal
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:coupon discount
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:tax
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:shipping cost
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:total
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:payment method
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:Cash on delivery
+./resources/views/theme/hexfashion/user/dashboard/refund/refund-details.blade.php:Order
+./resources/views/theme/hexfashion/user/login.blade.php:Don'/t have an account
+./resources/views/landlord/frontend/auth/email-verify.blade.php:Verify your email
+./resources/views/landlord/frontend/auth/login.blade.php:Login to your account
+./resources/views/landlord/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./resources/views/landlord/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/landlord/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./resources/views/landlord/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/landlord/frontend/partials/navbar.blade.php:Login
+./resources/views/landlord/frontend/partials/navbar.blade.php:Get Started
+./resources/views/landlord/frontend/partials/navbar.blade.php:Get Started
+./resources/views/landlord/frontend/partials/navbar.blade.php:Login
+./resources/views/landlord/frontend/partials/navbar.blade.php:Get Started
+./resources/views/landlord/frontend/partials/navbar.blade.php:Get Started
+./resources/views/landlord/frontend/frontend-home-prod.blade.php:Get started for FREE
+./resources/views/landlord/frontend/frontend-home-prod.blade.php:Get Started
+./resources/views/landlord/frontend/frontend-home-prod.blade.php:Get Started
+./resources/views/landlord/frontend/pages/package/order-page.blade.php:Please Wait
+./resources/views/landlord/frontend/pages/package/order-page.blade.php:Login
+./resources/views/landlord/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./resources/views/landlord/frontend/pages/package/order-page.blade.php:Login
+./resources/views/landlord/frontend/pages/package/price-plan.blade.php:Please Wait
+./resources/views/landlord/frontend/pages/package/price-plan.blade.php:Login
+./resources/views/landlord/frontend/pages/package/price-plan.blade.php:Login Success.. Redirecting ..
+./resources/views/landlord/frontend/pages/package/price-plan.blade.php:Login
+./resources/views/landlord/frontend/pages/package/view-plan.blade.php:Please Wait
+./resources/views/landlord/frontend/pages/package/view-plan.blade.php:Login
+./resources/views/landlord/frontend/pages/package/view-plan.blade.php:Login Success.. Redirecting ..
+./resources/views/landlord/frontend/pages/package/view-plan.blade.php:Login
+./resources/views/landlord/frontend/user/login.blade.php:Don'/t have an account
+./resources/views/landlord/admin/admin-home.blade.php:Amount Per Month In
+./resources/views/landlord/admin/admin-home.blade.php:Amount Per Day In Last 30Days
+./resources/views/landlord/admin/general-settings/footer-global-variant.blade.php:Footer Global Vartiant Settings
+./resources/views/landlord/admin/general-settings/license-settings.blade.php:License Settings
+./resources/views/landlord/admin/general-settings/payment-gateway.blade.php:Payment Gateway Settings
+./resources/views/landlord/admin/general-settings/typography-settings.blade.php:Heading Typography Settings
+./resources/views/landlord/admin/general-settings/page-settings.blade.php:Page Settings
+./resources/views/landlord/admin/general-settings/database-upgrade.blade.php:Database Upgrade
+./resources/views/landlord/admin/general-settings/database-upgrade.blade.php:Proccesing
+./resources/views/landlord/admin/general-settings/navbar-global-variant.blade.php:Navbar Global Variants Settings
+./resources/views/landlord/admin/general-settings/third-party.blade.php:Third Party Scripts Settings
+./resources/views/landlord/admin/general-settings/custom-js.blade.php:Custom Js
+./resources/views/landlord/admin/general-settings/tenant/theme/typography-settings-theme-02.blade.php:Heading Typography Settings
+./resources/views/landlord/admin/general-settings/tenant/theme/typography-settings-theme-03.blade.php:Heading Typography Settings
+./resources/views/landlord/admin/general-settings/tenant/theme/typography-settings.blade.php:Heading Typography Settings
+./resources/views/landlord/admin/general-settings/tenant/theme/typography-settings-theme-01.blade.php:Heading Typography Settings
+./resources/views/landlord/admin/package-order-manage/order-manage-all.blade.php:Update Status
+./resources/views/landlord/admin/package-order-manage/order-report.blade.php:Order Report
+./resources/views/landlord/admin/package-order-manage/order-success-page.blade.php:Order Success Page Settings
+./resources/views/landlord/admin/package-order-manage/order-cancel-page.blade.php:Order Cancel Page Settings
+./resources/views/landlord/admin/admin-role-manage/role/index.blade.php:New Role
+./resources/views/landlord/admin/admin-role-manage/edit-user.blade.php:All Admin
+./resources/views/landlord/admin/admin-role-manage/all-user.blade.php:Change Password
+./resources/views/landlord/admin/partials/footer.blade.php:Are you sure?
+./resources/views/landlord/admin/partials/footer.blade.php:You would not be able to revert this item!
+./resources/views/landlord/admin/partials/footer.blade.php:Are you sure to make this language as a default language?
+./resources/views/landlord/admin/partials/footer.blade.php:Languages will be turn changed as default
+./resources/views/landlord/admin/partials/footer.blade.php:Are you sure to approve this payment?
+./resources/views/landlord/admin/payment-logs/payment-report.blade.php:Payment Report
+./resources/views/landlord/admin/languages/edit-words.blade.php:Change All Words
+./resources/views/landlord/admin/languages/edit-words.blade.php:Are you sure?
+./resources/views/landlord/admin/languages/edit-words.blade.php:It will delete current source texts, you will lose your current translated data!
+./resources/views/landlord/admin/languages/index.blade.php:Default
+./resources/views/landlord/admin/languages/index.blade.php:RTL
+./resources/views/landlord/admin/languages/index.blade.php:Draft
+./resources/views/landlord/admin/languages/index.blade.php:RTL
+./resources/views/landlord/admin/languages/index.blade.php:Draft
+./resources/views/landlord/admin/languages/index.blade.php:RTL
+./resources/views/landlord/admin/languages/index.blade.php:Draft
+./resources/views/landlord/admin/price-plan/settings.blade.php:Price Plan Settings
+./resources/views/landlord/admin/form-builder/get-in-touch-form.blade.php:Get In Touch Form Builder
+./resources/views/landlord/admin/form-builder/get-in-touch-form.blade.php:Available Form Fields
+./resources/views/landlord/admin/form-builder/custom/edit.blade.php:Edit Form
+./resources/views/landlord/admin/form-builder/custom/edit.blade.php:Available Form Fields
+./resources/views/landlord/admin/form-builder/contact-form.blade.php:Contact Form Builder
+./resources/views/landlord/admin/form-builder/contact-form.blade.php:Available Form Fields
+./resources/views/landlord/admin/menu/menu-edit.blade.php:URL
+./resources/views/landlord/admin/menu/menu-edit.blade.php:Link Text
+./resources/views/landlord/admin/menu/menu-edit.blade.php:Register
+./resources/views/landlord/admin/menu/menu-edit.blade.php:Login
+./resources/views/landlord/admin/menu/menu-edit.blade.php:Logout
+./resources/views/landlord/admin/menu/menu-edit.blade.php:Dashboard
+./resources/views/landlord/admin/menu/menu-edit.blade.php:Default Auth Item
+./resources/views/landlord/admin/menu/menu-edit.blade.php:Updating
+./resources/views/landlord/admin/custom-domain/settings.blade.php:Custom Domain Settings
+./resources/views/landlord/admin/custom-domain/all-pending-requests.blade.php:Update Status
+./resources/views/landlord/admin/custom-domain/all-requests.blade.php:Update Status
+./resources/views/landlord/admin/tenant/details.blade.php:Cancel
+./resources/views/themes/hexfashion/frontend/invoice/order.blade.php:Size
+./resources/views/themes/hexfashion/frontend/invoice/order.blade.php:Color
+./resources/views/themes/hexfashion/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./resources/views/themes/hexfashion/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/themes/hexfashion/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/hexfashion/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Please Wait
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/hexfashion/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./resources/views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./resources/views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/hexfashion/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/hexfashion/frontend/pages/package/order-page.blade.php:Please Wait
+./resources/views/themes/hexfashion/frontend/pages/package/order-page.blade.php:Login
+./resources/views/themes/hexfashion/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/hexfashion/frontend/pages/package/order-page.blade.php:Login
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Please Wait
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Login
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Login
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/hexfashion/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Don'/t have an account
+./resources/views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Please Wait
+./resources/views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/hexfashion/frontend/backup-shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/furnito/frontend/invoice/order.blade.php:Size
+./resources/views/themes/furnito/frontend/invoice/order.blade.php:Color
+./resources/views/themes/furnito/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./resources/views/themes/furnito/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/themes/furnito/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/furnito/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Please Wait
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/furnito/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./resources/views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./resources/views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/furnito/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/furnito/frontend/pages/package/order-page.blade.php:Please Wait
+./resources/views/themes/furnito/frontend/pages/package/order-page.blade.php:Login
+./resources/views/themes/furnito/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/furnito/frontend/pages/package/order-page.blade.php:Login
+./resources/views/themes/default/frontend/invoice/order.blade.php:Size
+./resources/views/themes/default/frontend/invoice/order.blade.php:Color
+./resources/views/themes/default/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./resources/views/themes/default/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/themes/default/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/default/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:Please Wait
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/default/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./resources/views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./resources/views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/default/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/default/frontend/pages/package/order-page.blade.php:Please Wait
+./resources/views/themes/default/frontend/pages/package/order-page.blade.php:Login
+./resources/views/themes/default/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/default/frontend/pages/package/order-page.blade.php:Login
+./resources/views/themes/medicom/frontend/invoice/order.blade.php:Size
+./resources/views/themes/medicom/frontend/invoice/order.blade.php:Color
+./resources/views/themes/medicom/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./resources/views/themes/medicom/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/themes/medicom/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/medicom/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Please Wait
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/medicom/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./resources/views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./resources/views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/medicom/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/medicom/frontend/pages/package/order-page.blade.php:Please Wait
+./resources/views/themes/medicom/frontend/pages/package/order-page.blade.php:Login
+./resources/views/themes/medicom/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/medicom/frontend/pages/package/order-page.blade.php:Login
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Please Wait
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Login
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Login
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:An error occurred
+./resources/views/themes/medicom/frontend/backup-shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Don'/t have an account
+./resources/views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Please Wait
+./resources/views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Login
+./resources/views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./resources/views/themes/medicom/frontend/backup-shop/checkout/checkout_page.blade.php:Login
+./resources/views/tenant/frontend/invoice/order.blade.php:Size
+./resources/views/tenant/frontend/invoice/order.blade.php:Color
+./resources/views/tenant/frontend/partials/footer.blade.php:An error occurred
+./resources/views/tenant/frontend/partials/footer.blade.php:Select all attribute to proceed
+./resources/views/tenant/frontend/partials/footer.blade.php:An error occurred
+./resources/views/tenant/frontend/partials/footer.blade.php:An error occurred
+./resources/views/tenant/frontend/partials/footer.blade.php:An error occurred
+./resources/views/tenant/frontend/partials/footer.blade.php:Attribute not available
+./resources/views/tenant/frontend/partials/footer.blade.php:An error occurred
+./resources/views/tenant/frontend/partials/footer.blade.php:Select all attribute to proceed
+./resources/views/tenant/frontend/partials/footer.blade.php:An error occurred
+./resources/views/tenant/frontend/partials/footer.blade.php:Select all attribute to proceed
+./resources/views/tenant/frontend/partials/footer.blade.php:An error occurred
+./resources/views/tenant/frontend/partials/footer.blade.php:Select all attribute to proceed
+./resources/views/tenant/frontend/partials/ajax-login-form-js.blade.php:Please Wait
+./resources/views/tenant/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/tenant/frontend/partials/ajax-login-form-js.blade.php:Login Success.. Redirecting ..
+./resources/views/tenant/frontend/partials/ajax-login-form-js.blade.php:Login
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:Please Wait
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:Login Success.. Redirecting ..
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:Login
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:An error occurred
+./resources/views/tenant/frontend/shop/product_details/product-details.blade.php:Select all attribute to proceed
+./resources/views/tenant/frontend/shop/checkout/checkout_page.blade.php:Don'/t have an account
+./resources/views/tenant/frontend/shop/checkout/checkout_page.blade.php:Please Wait
+./resources/views/tenant/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/tenant/frontend/shop/checkout/checkout_page.blade.php:Login Success.. Redirecting ..
+./resources/views/tenant/frontend/shop/checkout/checkout_page.blade.php:Login
+./resources/views/tenant/frontend/pages/package/order-page.blade.php:Please Wait
+./resources/views/tenant/frontend/pages/package/order-page.blade.php:Login
+./resources/views/tenant/frontend/pages/package/order-page.blade.php:Login Success.. Redirecting ..
+./resources/views/tenant/frontend/pages/package/order-page.blade.php:Login
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:order
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:order details
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:billing information
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:product
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:subtotal
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:Size
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:Color
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:subtotal
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:coupon discount
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:tax
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:shipping cost
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:total
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:payment method
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:cash on delivery
+./resources/views/tenant/frontend/user/dashboard/order-details.blade.php:Order
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:order
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:order details
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:billing information
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:product
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:subtotal
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:Size
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:Color
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:subtotal
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:coupon discount
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:tax
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:shipping cost
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:total
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:payment method
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:Cash on delivery
+./resources/views/tenant/frontend/user/dashboard/refund/refund-details.blade.php:Order
+./resources/views/tenant/frontend/user/login.blade.php:Don'/t have an account
+./resources/views/tenant/admin/product-order-manage/order-settings.blade.php:Order Settings
+./resources/views/tenant/admin/product-order-manage/order-manage-all.blade.php:Update Status
+./resources/views/tenant/admin/product-order-manage/order-report.blade.php:Order Report
+./resources/views/tenant/admin/product-order-manage/order-success-page.blade.php:Order Success Page Settings
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:Order
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:order details
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:billing information
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:product
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:subtotal
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:Size
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:Color
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:subtotal
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:coupon discount
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:tax
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:shipping cost
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:total
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:payment method
+./resources/views/tenant/admin/product-order-manage/order-view.blade.php:Cash on delivery
+./resources/views/tenant/admin/product-order-manage/order-manage-completed.blade.php:Update Status
+./resources/views/tenant/admin/product-order-manage/order-manage-pending.blade.php:Update Status
+./resources/views/tenant/admin/product-order-manage/order-manage-in-progress.blade.php:Update Status
+./resources/views/tenant/admin/product-order-manage/order-cancel-page.blade.php:Order Cancel Page Settings
+./resources/views/tenant/admin/admin-role-manage/role/index.blade.php:New Role
+./resources/views/tenant/admin/admin-role-manage/edit-user.blade.php:All Admin
+./resources/views/tenant/admin/admin-role-manage/all-user.blade.php:Change Password
+./resources/views/tenant/admin/partials/footer.blade.php:Are you sure?
+./resources/views/tenant/admin/partials/footer.blade.php:You would not be able to revert this item!
+./resources/views/tenant/admin/partials/footer.blade.php:Are you sure to make this language as a default language?
+./resources/views/tenant/admin/partials/footer.blade.php:Languages will be turn changed as default
+./resources/views/tenant/admin/partials/footer.blade.php:Are you sure to approve this payment?
+./resources/views/tenant/admin/payment-logs/payment-report.blade.php:Payment Report
+./resources/views/tenant/admin/languages/index.blade.php:Default
+./resources/views/tenant/admin/languages/index.blade.php:Draft
+./resources/views/tenant/admin/languages/index.blade.php:RTL
+./resources/views/tenant/admin/languages/index.blade.php:Draft
+./resources/views/tenant/admin/languages/index.blade.php:RTL
+./resources/views/tenant/admin/languages/index.blade.php:Draft
+./resources/views/tenant/admin/languages/index.blade.php:RTL
+./resources/views/tenant/admin/menu/menu-edit.blade.php:URL
+./resources/views/tenant/admin/menu/menu-edit.blade.php:Link Text
+./resources/views/tenant/admin/menu/menu-edit.blade.php:Updating
