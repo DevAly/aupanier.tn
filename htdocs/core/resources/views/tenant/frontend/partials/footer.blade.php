@@ -63,7 +63,7 @@
 <script src="{{global_asset('assets/tenant/frontend/js/custom-alert-message.js')}}"></script>
 
 <!-- main js -->
-<script src="{{global_asset('assets/tenant/frontend/js/main.js')}}"></script>
+<script src="{{global_asset('assets/tenant/frontend/js/main.js')}}?version={{time()}}"></script>
 
 <script src="{{global_asset('assets/common/js/star-rating.min.js')}}"></script>
 <script src="{{global_asset('assets/common/js/md5.js')}}"></script>

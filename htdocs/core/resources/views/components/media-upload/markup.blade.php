@@ -88,7 +88,7 @@
     // Define a function to handle the changes
     function handleMediaUploadModal() {
       var $mediaUploadModal = $('#media_upload_modal');
-      
+
       if ($mediaUploadModal.hasClass('show')) {
         // Hide scroll bars and revert other changes
         $('body').css('overflow', 'hidden'); // Hide scroll bars
@@ -115,9 +115,8 @@
     $('.media_upload_modal_submit_btn').click(function() {
       $('body').css('overflow', 'auto'); // Show scroll bars
     });
-  });
-  $('.media_upload_popup_close_btn').click(function() {
-      $('body').css('overflow', 'auto'); // Show scroll bars
-    });
+      $('.media_upload_popup_close_btn').click(function() {
+          $('body').css('overflow', 'auto'); // Show scroll bars
+      });
   });
 </script>

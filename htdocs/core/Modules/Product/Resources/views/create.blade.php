@@ -108,56 +108,7 @@
         <div class="row g-4">
             <div class="col-md-12">
                 <div class="row gy-4 d-flex align-items-start">
-                    <div class="col-xxl-2 col-xl-3 col-lg-12">
-                        <div class="nav flex-column nav-pills border-1 radius-10 me-3" id="v-pills-tab" role="tablist"
-                             aria-orientation="vertical">
-                            <button class="nav-link active" id="v-pills-general-info-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-general-info-tab" type="button" role="tab"
-                                    aria-controls="v-general-info-tab" aria-selected="true"><i class="las la-info-circle"></i><div> {{__("General Info") }}</div>
-                            </button>
-                            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-categories-tab" type="button" role="tab"
-                                    aria-controls="v-categories-tab" aria-selected="false"><i class="las la-folder-open"></i><div> {{ __("Categories") }}</div>
-                            </button>
-                             <button class="nav-link" id="v-pills-images-tab-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-images-tab" type="button" role="tab" aria-controls="v-images-tab"
-                                    aria-selected="false"><i class="las la-image"></i><div> {{ __("Images") }}</div>
-                            </button>
-                            <button class="nav-link" id="v-pills-price-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-price-tab" type="button" role="tab" aria-controls="v-price-tab"
-                                    aria-selected="false"><i class="las la-dollar-sign"></i><div> {{ __("Price") }}</div>
-                            </button>
-                           <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-inventory-tab" type="button" role="tab"
-                                    aria-controls="v-inventory-tab" aria-selected="false"><i class="las la-boxes"></i><div> {{ __("Inventory") }}</div>
-                            </button>
-                            {{-- <button class="nav-link" id="v-pills-tags-and-label" data-bs-toggle="pill"
-                                    data-bs-target="#v-tags-and-label" type="button" role="tab"
-                                    aria-controls="v-tags-and-label" aria-selected="false"><i class="las la-tags"></i><div> {{ __("Tags & Label") }}</div>
-                            </button> --}}
-                            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-attributes-tab" type="button" role="tab"
-                                    aria-controls="v-attributes-tab" aria-selected="false"><i class="las la-sliders-h"></i><div> {{ __("Attributes") }}</div>
-                            </button>
-                            {{-- <button class="nav-link" id="v-pills-delivery-option-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-delivery-option-tab" type="button" role="tab"
-                                    aria-controls="v-delivery-option-tab" aria-selected="false"><i class="las la-truck"></i><div> {{ __("Delivery Option") }}</div>
-                            </button> --}}
-                            <button class="nav-link" id="v-pills-meta-tag-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-meta-tag-tab" type="button" role="tab"
-                                    aria-controls="v-meta-tag-tab" aria-selected="false"><i class="las la-share-alt-square"></i><div> {{ __("Product Meta") }}</div>
-                            </button>
-                            <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-settings-tab" type="button" role="tab"
-                                    aria-controls="v-settings-tab" aria-selected="false"><i class="las la-cogs"></i><div> {{ __("Product Settings") }}</div>
-                            </button>
-                            <button class="nav-link" id="v-pills-policy-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-policy-tab" type="button" role="tab"
-                                    aria-controls="v-policy-tab" aria-selected="false"><i class="las la-gavel"></i><div> {{ __("Shipping & Return Policy") }}</div>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-xxl-10 col-xl-9 col-lg-12">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
                         <div class="info-right-wrapper">
                             <form data-request-route="{{ route("tenant.admin.product.create") }}" method="post"
                               id="product-create-form">
@@ -166,63 +117,139 @@
                                 <button class="btn-sm btn btn-success">{{ __("Create Product") }}</button>
                             </div>
                             <div class="info-right-inner">
-                                <div class="tab-content margin-top-10" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-general-info-tab" role="tabpanel"
-                                     aria-labelledby="v-general-info-tab">
-                                    <x-product::general-info :brands="$data['brands']"/>
-                                </div>
-                                <div class="tab-pane fade" id="v-price-tab" role="tabpanel"
-                                     aria-labelledby="v-price-tab">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                {{__("General Info") }}
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <x-product::general-info :brands="$data['brands']"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="las la-dollar-sign"></i>
+                                        <div> {{ __("Price") }}</div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
                                     <x-product::product-price/>
-                                </div>
-                                <div class="tab-pane fade" id="v-inventory-tab" role="tabpanel"
-                                     aria-labelledby="v-inventory-tab">
-                                    <x-product::product-inventory :units="$data['units']"/>
-                                </div>
-                                <div class="tab-pane fade" id="v-images-tab" role="tabpanel"
-                                     aria-labelledby="v-images-tab">
-                                    <x-product::product-image/>
-                                </div>
-                                <div class="tab-pane fade" id="v-tags-and-label" role="tabpanel"
-                                     aria-labelledby="v-tags-and-label">
-                                    <x-product::tags-and-badge :badges="$data['badges']"/>
-                                </div>
-                                <div class="tab-pane fade" id="v-attributes-tab" role="tabpanel"
-                                     aria-labelledby="v-attributes-tab">
-                                    <x-product::product-attribute :is-first="true" :colors="$data['product_colors']"
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="las la-boxes"></i>
+                                        <div> {{ __("Inventory") }}</div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                    
+                                            <x-product::product-inventory :units="$data['units']"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            <i class="las la-image"></i>
+                                        <div> {{ __("Images") }}</div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                    
+                                            <x-product::product-image/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFive">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            <i class="las la-sliders-h"></i>
+                                        <div>  {{ __("Attributes") }}</div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                    
+                                            <x-product::product-attribute :is-first="true" :colors="$data['product_colors']"
                                                                   :sizes="$data['product_sizes']"
                                                                   :allAttributes="$data['all_attribute']"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSix">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            <i class="las la-folder-open"></i>
+                                        <div> {{ __("Categories") }}</div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                    
+                                            <x-product::categories :categories="$data['categories']"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSeven">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            <i class="las la-cogs"></i>
+                                            
+                                        <div> {{ __("Product Settings") }}</div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                    
+                                            <x-product::settings/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingEight">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                            
+                                         <i class="las la-gavel"></i>
+                                        <div>{{ __("Shipping & Return Policy") }}</div>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                            <x-product::policy/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-categories-tab" role="tabpanel"
-                                     aria-labelledby="v-categories-tab">
-                                    <x-product::categories :categories="$data['categories']"/>
-                                </div>
-                                <div class="tab-pane fade" id="v-delivery-option-tab" role="tabpanel"
-                                     aria-labelledby="v-delivery-option-tab">
-                                    <x-product::delivery-option :deliveryOptions="$data['deliveryOptions']"/>
-                                </div>
-                                <div class="tab-pane fade" id="v-meta-tag-tab" role="tabpanel"
-                                     aria-labelledby="v-meta-tag-tab">
-                                    <x-product::meta-seo/>
-                                </div>
-                                <div class="tab-pane fade" id="v-settings-tab" role="tabpanel"
-                                     aria-labelledby="v-settings-tab">
-                                    <x-product::settings/>
-                                </div>
-                                <div class="tab-pane fade" id="v-policy-tab" role="tabpanel"
-                                     aria-labelledby="v-policy-tab">
-                                    <x-product::policy/>
-                                </div>
-                            </div>
                             </div>
                         </form>
+                        </div>
                     </div>
-                 </div>
+                </div>
             </div>
         </div>
-    </div>
         <x-media-upload.markup/>
+        <style>
+            .nav-link{
+                width: 100%;
+                text-align: left;
+                margin-bottom: 21px;
+            }
+        </style>
         @endsection
+
         @section('scripts')
             <script src="{{ global_asset('assets/common/js/jquery-ui.min.js') }}" rel="stylesheet"></script>
             <script src="{{global_asset('assets/tenant/backend/js/bootstrap-taginput.min.js')}}"></script>

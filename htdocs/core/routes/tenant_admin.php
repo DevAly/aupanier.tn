@@ -11,7 +11,6 @@ use App\Http\Controllers\Tenant\Admin\NewsletterController;
 use Illuminate\Support\Facades\Http;
 
 
-
 Route::middleware([
     'web',
     InitializeTenancyByDomain::class,
@@ -25,15 +24,16 @@ Route::middleware([
     'set_lang'
 ])->prefix('admin-home')->name('tenant.')->group(function () {
 
-    Route::post('/describe', function(){
+    Route::post('/describe', function () {
         $response = Http::withHeaders([
-            'Authorization' => 'Bearer 1|LU0K80rJkMtRman9ak5rm4HHDeSU6BMu7nLxRrhM'
-        ])->post('https://platform-ai.devaly.ovh/api/models/vision/describe', [
+            'Authorization' => 'Bearer 1|5cW9v6Txr2eAFOlAORe0S2sET2nx5WyDV3WOR3A7',
+            'Content-Type' => 'application/json',
+        ])->post('https://aiteam.aupanier.tn/api/models/vision/describe', [
             'image_base64' => request('image_base64'),
         ]);
 
 
-           return response()->json($response->json());
+        return response()->json($response->json());
     })->name('admin.describe');
 
 
@@ -41,7 +41,7 @@ Route::middleware([
     | BACKEND NEWSLETTER AREA
     |---------------------------------------------------------------------------------------------------------------------------*/
 
-    Route::controller(NewsletterController::class)->prefix('tenant-newsletter')->group(function (){
+    Route::controller(NewsletterController::class)->prefix('tenant-newsletter')->group(function () {
         Route::get('/', 'index')->name('admin.newsletter');
         Route::post('/delete/{id}', 'delete')->name('admin.newsletter.delete');
         Route::post('/single', 'send_mail')->name('admin.newsletter.single.mail');
@@ -268,7 +268,7 @@ Route::middleware([
         Route::post('/delete/all/lang/{id}', 'delete_tag_all_lang')->name('admin.blog.tag.delete');
         Route::post('/bulk-action', 'bulk_action')->name('admin.blog.tag.bulk.action');
 
-        Route::get('/get/tags','get_tags_by_ajax')->name('admin.blog.get.tags.by.ajax');
+        Route::get('/get/tags', 'get_tags_by_ajax')->name('admin.blog.get.tags.by.ajax');
     });
 
 
@@ -426,7 +426,7 @@ Route::middleware([
         Route::post('/order-user/generate-invoice', 'generate_order_invoice')->name('admin.order.invoice.generate');
 
         //Order settings route
-        Route::match(['get', 'post'] ,'/order/settings', 'order_manage_settings')->name('admin.product.order.settings');
+        Route::match(['get', 'post'], '/order/settings', 'order_manage_settings')->name('admin.product.order.settings');
     });
 
     /*------------------------------------------
