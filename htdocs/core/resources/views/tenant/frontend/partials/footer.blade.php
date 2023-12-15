@@ -3,6 +3,53 @@
      aria-hidden="true">
 </div>
 
+<div class="modal product-quick-view-bg-color" id="au_add_to_cart_modal" tabindex="-1" role="dialog" aria-labelledby="productModal"
+     aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content p-5">
+            <div class="">
+                <button class="quick-view-close-btn au-add-to-cart-close-btn"><i class="las la-times"></i></button>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-12 col-xl-12">
+                    <div class="global-slick-init shop-details-top-slider quick-view-long-img" id="shop_details_gallery_slider" data-asnavfor=".shop-details-click-img" data-fade="true" data-infinite="true" data-autoplayspeed="3000" data-autoplay="true" data-src="https://cheapaly-shop.devaly.ovh/assets/tenant/uploads/media-uploader/cheapaly/frame-34482-min1668590518.jpg">
+                        <div class="quick-view-thumb position-relative">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-xl-12 quick-view-shop-wrapper">
+                    <div class="">
+
+                        <div class="name_badge">
+                            <h5 class="details-title text-center"> Mans Silver Ridge Lite Long Sleeve Shirt</h5>
+                            <h5 class="text-center">a été ajouté à votre panier !</h5>
+                        </div>
+
+                        <div class="value   -input-area">
+                        </div>
+                        <div class="quantity-area mt-4">
+                            <div class="quantity-btn mt-4">
+                                <div class="btn-wrapper">
+                                    <a href="{{route('tenant.shop.cart')}}" class=" cmn-btn cmn-btn-bg-heading radius-0 w-100" style="/* font-size: 13px; */">Voir le panier &amp; commander</a>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="javascript:void(0)" class="au-continue-shopping cmn-btn cmn-btn-bg-steam radius-0 w-100 cart-loading">Continuer mon shopping</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <!-- footer area start -->
 @include('tenant.frontend.partials.widget-area')
 <!-- footer area end -->
@@ -67,6 +114,14 @@
 
 <script src="{{global_asset('assets/common/js/star-rating.min.js')}}"></script>
 <script src="{{global_asset('assets/common/js/md5.js')}}"></script>
+<script>
+    var get_product_by_id_route = "{{ route('tenant.shop.product.view.by.id.ajax') }}";
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
 
 @php
     $theme_footer_js_files = \App\Facades\ThemeDataFacade::getFooterHookJsFiles();

@@ -18,8 +18,8 @@
                                         <i class="{{$data['repeater_data']['repeater_icon_'][$key] ?? ''}}"></i>
                                     </div>
                                     <div class="contact-contents-inner-single-contents">
-                                        <h4 class="contact-contents-inner-single-contents-title fw-500"> {{\App\Helpers\SanitizeInput::esc_html($data['repeater_data']['repeater_info_'][$key]) ?? ''}} </h4>
-                                        <span class="contact-contents-inner-single-contents-item"> <a href="javascript:void(0)"> {{\App\Helpers\SanitizeInput::esc_html($data['repeater_data']['repeater_sub_info_'][$key]) ?? ''}} </a> </span>
+                                        <h4 class="contact-contents-inner-single-contents-title fw-500"> {{\App\Helpers\SanitizeInput::esc_html(changeInformation($data['repeater_data']['repeater_info_'][$key])) ?? ''}} </h4>
+                                        <span class="contact-contents-inner-single-contents-item"> <a href="javascript:void(0)">{{\App\Helpers\SanitizeInput::esc_html(changeInformation($data['repeater_data']['repeater_sub_info_'][$key])) ?? ''}} </a> </span>
                                     </div>
                                 </div>
                             </div>

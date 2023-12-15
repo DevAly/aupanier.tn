@@ -61,7 +61,7 @@
     @endif
 
     @include('tenant.frontend.partials.css-variable', ['theme_slug' => $theme_slug])
-    <link rel="stylesheet" href="{{global_asset('assets/tenant/frontend/css/shop-order-custom.css')}}">
+    <link rel="stylesheet" href="{{global_asset('assets/tenant/frontend/css/shop-order-custom.css')}}?version={{time()}}">
 
     @yield('style')
 

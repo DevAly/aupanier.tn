@@ -117,6 +117,9 @@ class GeneralSettingsController extends Controller
         $fields = [
             'site_title' => 'nullable|string',
             'tva_code' => 'nullable|string',
+            'shop_phone_number' => 'nullable|string',
+            'shop_email' => 'nullable|string',
+            'shop_address' => 'nullable|string',
             'TIN' => 'nullable|string',
             'lien_facebook' => 'nullable|string',
             'lien_twitter' => 'nullable|string',

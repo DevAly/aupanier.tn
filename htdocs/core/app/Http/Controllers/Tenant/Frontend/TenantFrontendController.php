@@ -340,6 +340,27 @@ class TenantFrontendController extends Controller
             'setting_text',
         ));
     }
+    public function view_by_id(Request $request)
+    {
+        $productId = $request->get('product_id');
+        if(empty($productId)){
+            abort(404);
+        }
+        $product = Product::findOrFail($productId);
+        $images = [];
+        if(!empty($product->gallery_images)){
+            foreach ($product->gallery_images as $gallery_image){
+                $image = get_attachment_image_by_id($gallery_image->id);
+                $images[] = $image['img_url'] ?? null;
+            }
+        }
+        $mainImage = get_attachment_image_by_id($product->image_id);
+        return response()->json(['success' => true, 'data' => [
+            'name' => $product->name,
+            'images' => $images,
+            'image' => $mainImage['img_url'] ?? null,
+        ]]);
+    }
 
     public function add_to_cart(Request $request): JsonResponse
     {

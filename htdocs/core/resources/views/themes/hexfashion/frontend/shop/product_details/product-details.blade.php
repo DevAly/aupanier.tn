@@ -734,13 +734,16 @@
                         }
                         else
                         {
-                            toastr.success(data.msg, '{{__('Go to Cart')}}', '#', 60000);
+                            {{--toastr.success(data.msg, '{{__('Go to Cart')}}', '#', 60000);--}}
                             $('.track-icon-list').hide();
                             $('.track-icon-list').load(location.href + " .track-icon-list");
                             $('.track-icon-list').fadeIn();
+                            $(document).trigger('au_add_to_cart', {
+                                'product_id': product_id,
+                            });
                         }
                     },
-                    erorr: function (err) {
+                    error: function (err) {
                         toastr.error('{{ __("An error occurred") }}')
                     }
                 });

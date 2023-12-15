@@ -1653,3 +1653,26 @@ function checkAndLoginUsingToken($redirectTo = '/admin'){
     }
     return null;
 }
+function changeInformation($MyString){
+    $myArray = array(
+        '{settings.general.shop_phone}' => get_static_option('shop_phone_number'),
+        '{settings.general.shop_email}' => get_static_option('shop_email'),
+        '{settings.general.shop_Address}' => get_static_option('shop_address'),
+        '{settings.general.site_title}' => get_static_option('site_title'),
+        '{settings.general.site_tag_line}' => get_static_option('site_tag_line'),
+        '{settings.general.lien_facebook}' => get_static_option('lien_facebook'),
+        '{settings.general.lien_twitter}' => get_static_option('lien_twitter'),
+        '{settings.general.lien_instagram}' => get_static_option('lien_instagram'),
+        '{settings.general.lien_youtube}' => get_static_option('lien_youtube'),
+        '{settings.general.TIN}' => get_static_option('TIN'),
+        '{settings.general.tva_code}' => get_static_option('tva_code'),
+        '{settings.general.site_footer_copyright_text}' => get_static_option('site_footer_copyright_text'),
+    );
+
+    // Perform string replacement
+    foreach ($myArray as $key => $value) {
+        $MyString = str_replace($key, $value, $MyString);
+    }
+
+    return $MyString;
+}

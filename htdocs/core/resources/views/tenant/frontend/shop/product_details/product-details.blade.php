@@ -735,6 +735,9 @@
                             $('.track-icon-list').hide();
                             $('.track-icon-list').load(location.href + " .track-icon-list");
                             $('.track-icon-list').fadeIn();
+                            $(document).trigger('au_add_to_cart', {
+                                'product_id': product_id,
+                            });
                         }
                     },
                     erorr: function (err) {

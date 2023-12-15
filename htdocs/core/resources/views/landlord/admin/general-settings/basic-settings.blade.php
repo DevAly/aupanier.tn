@@ -14,12 +14,15 @@
                     @csrf
                     <x-fields.input type="text" value="{{get_static_option('site_title')}}" name="site_title" label="{{__('Site Title')}}"/>
                     <x-fields.input type="text" value="{{get_static_option('site_tag_line')}}" name="site_tag_line" label="{{__('Site Tag Line')}}"/>
-                    <x-fields.input type="text" value="{{get_static_option('TIN')}}" name="TIN" label="{{__('TIN')}}"/>
-                    <x-fields.input type="text" value="{{get_static_option('tva_code')}}" name="tva_code" label="{{__('TVA code')}}"/>
+                    <x-fields.input type="text" value="{{get_static_option('shop_phone_number')}}" name="shop_phone_number" label="{{__('Shop Phone Number')}}"/>
+                    <x-fields.input type="text" value="{{get_static_option('shop_email')}}" name="shop_email" label="{{__('Shop Email')}}"/>
+                    <x-fields.input type="text" value="{{get_static_option('shop_address')}}" name="shop_address" label="{{__('Shop Address')}}"/>
                     <x-fields.input type="text" value="{{get_static_option('lien_facebook')}}" name="lien_facebook" label="{{__('facebook link')}}"/>
                     <x-fields.input type="text" value="{{get_static_option('lien_twitter')}}" name="lien_twitter" label="{{__('twitter link')}}"/>
                     <x-fields.input type="text" value="{{get_static_option('lien_instagram')}}" name="lien_instagram" label="{{__('instagram link')}}"/>
                     <x-fields.input type="text" value="{{get_static_option('lien_youtube')}}" name="lien_youtube" label="{{__('youtube link')}}"/>
+                    <x-fields.input type="text" value="{{get_static_option('TIN')}}" name="TIN" label="{{__('TIN')}}"/>
+                    <x-fields.input type="text" value="{{get_static_option('tva_code')}}" name="tva_code" label="{{__('TVA code')}}"/>
                     <x-fields.textarea type="text" value="{{get_static_option('site_footer_copyright_text')}}" name="site_footer_copyright_text" label="{{__('Footer Copyright Text')}}" info="{{__('{copy} Will replace by & and {year} will be replaced by current year.')}}"/>
                     <div class="form-group">
                         @php

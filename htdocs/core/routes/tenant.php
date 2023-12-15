@@ -71,6 +71,7 @@ Route::middleware([
         Route::get('/product/review/more', [TenantFrontendController::class, 'render_reviews'])->name('shop.product.review.more.ajax'); // Product Review Ajax
 
         Route::post('/product/cart/add', [TenantFrontendController::class, 'add_to_cart'])->name('shop.product.add.to.cart.ajax'); // Shop to Add to Cart
+        Route::post('/product/view-by-id', [TenantFrontendController::class, 'view_by_id'])->name('shop.product.view.by.id.ajax'); // Shop to Add to Cart
         Route::post('/product/wishlist/add', [TenantFrontendController::class, 'add_to_wishlist'])->name('shop.product.add.to.wishlist.ajax'); // Shop to Add to Cart
         Route::post('/product/compare/add', [TenantFrontendController::class, 'add_to_compare'])->name('shop.product.add.to.compare.ajax'); // Shop to Add to Cart
         Route::get('/cart', [TenantFrontendController::class, 'cart_page'])->name('shop.cart');
