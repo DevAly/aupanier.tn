@@ -81,7 +81,7 @@ class FooterContact extends WidgetBase
         }
 
         $markup = $this->widget_column_start();
-        $markup .= '<div class="footer-widget widget center-text">
+        $markup .= '<div class="footer-widget widget center-text ccc">
                             <h4 class="widget-title fw-500"> '. $widget_title .' </h4>
                             <div class="footer-inner mt-4">
                                 <div class="footer-contact">

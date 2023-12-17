@@ -79,6 +79,15 @@
     @foreach($theme_header_js_files ?? [] as $jsFile)
         <script src="{{loadJs($jsFile)}}"></script>
     @endforeach
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQM3DKVRPM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BQM3DKVRPM');
+    </script>
     @if(get_static_option('is_facebook_pixel_enabled') && !empty(get_static_option('facebook_pixel_id')) && is_numeric(get_static_option('facebook_pixel_id')))
         <!-- Meta Pixel Code -->
         <script>

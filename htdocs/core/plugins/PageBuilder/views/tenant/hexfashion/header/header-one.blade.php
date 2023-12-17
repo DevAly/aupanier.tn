@@ -2,7 +2,7 @@
   <div class="banner-area" data-padding-top="{{$data['padding_top']}}" data-padding-bottom="{{$data['padding_bottom']}}">
     <div class="banner-social-content">
         @foreach($data['social_repeater']['social_media_name_'] as $key => $value)
-            <a href="{{$data['social_repeater']['social_media_url_'][$key]}}" class="item"> {{$value}} </a>
+            <a href="{{changeInformation($data['social_repeater']['social_media_url_'][$key])}}" class="item"> {{changeInformation($value)}} </a>
         @endforeach
     </div>
     <div class="jacket-text-shape">
@@ -18,9 +18,9 @@
                         @foreach($data['repeater_data']['title_'] as $key => $value)
                             @php
                                 $title = \App\Helpers\SanitizeInput::esc_html($value) ?? '';
-                                $subtitle = \App\Helpers\SanitizeInput::esc_html($data['repeater_data']['subtitle_'][$key]) ?? '';
-                                $button_text = \App\Helpers\SanitizeInput::esc_html($data['repeater_data']['shop_button_text_'][$key]) ?? '';
-                                $button_url = \App\Helpers\SanitizeInput::esc_url($data['repeater_data']['shop_button_url_'][$key]) ?? '';
+                                $subtitle = \App\Helpers\SanitizeInput::esc_html(changeInformation($data['repeater_data']['subtitle_'][$key])) ?? '';
+                                $button_text = \App\Helpers\SanitizeInput::esc_html(changeInformation($data['repeater_data']['shop_button_text_'][$key])) ?? '';
+                                $button_url = \App\Helpers\SanitizeInput::esc_url(changeInformation($data['repeater_data']['shop_button_url_'][$key])) ?? '';
                                 $background_image = $data['repeater_data']['background_image_'][$key] ?? '';
                                 $figure_image = $data['repeater_data']['figure_image_'][$key] ?? '';
 
@@ -37,11 +37,11 @@
                                 </div>
                                 <div class="banner-image-content">
                                     <h2 class="banner-image-content-title fw-500 mt-3">
-                                        <a href="javascript:void(0)"> {!! get_tenant_highlighted_text($title) !!} </a>
+                                        <a href="javascript:void(0)"> {!! get_tenant_highlighted_text(changeInformation($title)) !!} </a>
                                     </h2>
-                                    <p class="banner-image-content-para mt-3"> {{$subtitle}} </p>
+                                    <p class="banner-image-content-para mt-3"> {{changeInformation($subtitle)}} </p>
                                     <div class="btn-wrapper">
-                                        <a href="{{$button_url}}" class="cmn-btn cmn-btn-bg-2 radius-0 mt-4 mt-lg-5"> {{$button_text}} </a>
+                                        <a href="{{$button_url}}" class="cmn-btn cmn-btn-bg-2 radius-0 mt-4 mt-lg-5"> {{changeInformation($button_text)}} </a>
                                     </div>
                                 </div>
                             </div>

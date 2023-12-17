@@ -91,7 +91,14 @@ class ProductController extends Controller
         $data = $request->validated();
         if(empty($data['sku'])){
             $data['sku'] = uniqid('sku');
-            $data['quantity'] = -1;
+            $data['quantity'] = 1;
+        }
+
+        if(empty($data['name'])){
+            $data['name'] = "Untitled";
+        }
+        if(empty($data['slug'])){
+            $data['slug'] = "untitled-".uniqid();
         }
 
 //        \DB::beginTransaction();

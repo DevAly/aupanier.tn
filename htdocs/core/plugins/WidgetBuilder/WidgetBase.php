@@ -239,7 +239,7 @@ abstract class WidgetBase
     public function admin_form_before(){
         $markup = '';
         if ($this->args['before']){
-            $markup .= '<li class="ui-state-default widget-handler" data-name="'.$this->widget_name().'">';
+            $markup .= '<li class="ui-state-default widget-handler " data-name="'.$this->widget_name().'">';
         }
         $markup .= '<h4 class="top-part"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>'.$this->widget_title().'</h4>
         <span class="expand"><i class="las la-angle-down"></i></span>

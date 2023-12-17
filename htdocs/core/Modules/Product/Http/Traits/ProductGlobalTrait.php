@@ -140,7 +140,7 @@ trait ProductGlobalTrait {
             "price" => $data["price"],
             "sale_price" => $data["sale_price"],
             "cost" => $data["cost"],
-            "badge_id" => $data["badge_id"],
+            "badge_id" => $data["badge_id"] ?? null,
             "brand_id" => $data["brand"],
             "product_type" => $this->product_type() ?? 2,
             "min_purchase" => $data["min_purchase"],
@@ -314,14 +314,15 @@ trait ProductGlobalTrait {
 
     public function prepareMetaData($data): array
     {
+
         return [
-            'title' => SanitizeInput::esc_html($data["general_title"]) ?? '',
-            'description' => SanitizeInput::esc_html($data["general_description"]) ?? '',
-            'fb_title' => SanitizeInput::esc_html($data["facebook_title"]) ?? '',
-            'fb_description' => SanitizeInput::esc_html($data["facebook_description"]) ?? '',
+            'title' => SanitizeInput::esc_html($data["general_title"] ?? '') ?? '',
+            'description' => SanitizeInput::esc_html($data["general_description"] ?? '') ?? '',
+            'fb_title' => SanitizeInput::esc_html($data["facebook_title"] ?? '') ?? '',
+            'fb_description' => SanitizeInput::esc_html($data["facebook_description"] ?? '') ?? '',
             'fb_image' => $data["facebook_image"] ?? '',
-            'tw_title' => SanitizeInput::esc_html($data["twitter_title"]) ?? '',
-            'tw_description' => SanitizeInput::esc_html($data["twitter_description"]) ?? '',
+            'tw_title' => SanitizeInput::esc_html($data["twitter_title"] ?? '') ?? '',
+            'tw_description' => SanitizeInput::esc_html($data["twitter_description"] ?? '') ?? '',
             'tw_image' => $data["twitter_image"] ?? ''
         ];
     }

@@ -15,6 +15,7 @@
             border-top: 4px solid #3498db;
             border-radius: 50%;
             animation: spin 2s linear infinite;
+            margin-left: 7px;
         }
 
         @keyframes spin {
@@ -87,7 +88,7 @@
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                
+
                                                 <x-product::general-info :brands="$data['brands']" :product="$product"/>
                                             </div>
                                         </div>
@@ -114,7 +115,7 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::product-inventory :units="$data['units']"
                                                                   :inventory="$product?->inventory"
                                                                   :uom="$product?->uom"/>
@@ -130,7 +131,7 @@
                                         </h2>
                                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::product-image :product="$product"/>
                                             </div>
                                         </div>
@@ -144,7 +145,7 @@
                                         </h2>
                                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::product-attribute
                                         :inventorydetails="$product?->inventory?->inventoryDetails"
                                         :colors="$data['product_colors']"
@@ -162,7 +163,7 @@
                                         </h2>
                                         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::categories :sub_categories="$sub_categories"
                                                            :categories="$data['categories']"
                                                            :child_categories="$child_categories"
@@ -175,13 +176,13 @@
                                         <h2 class="accordion-header" id="headingSeven">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                             <i class="las la-cogs"></i>
-                                            
+
                                         <div> {{ __("Product Settings") }}</div>
                                             </button>
                                         </h2>
                                         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::settings :product="$product"/>
                                             </div>
                                         </div>
@@ -189,7 +190,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingEight">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                            
+
                                          <i class="las la-gavel"></i>
                                         <div>{{ __("Shipping & Return Policy") }}</div>
                                             </button>
@@ -200,7 +201,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     </div>
                                 </div>
                         </form>
@@ -436,11 +437,15 @@
                     }
 
 
-                    $(document).on('click','.generate-title', function(){
+                    $(document).on('click', '.generate-title', function () {
                         var $this = $(this);
+                        var image = $('.image-product-wrapper #image_id_section .attachment-preview img').attr('src');
+                        if (!image) {
+                            alert("Merci d'ajouter une image");
+                            return;
+                        }
                         $this.attr('disabled', true);
-                         var image = $('.image-product-wrapper #image_id_section .attachment-preview img').attr('src');
-                         $("#loadingCircle").show();
+                        $("#loadingCircle").show();
                          toDataURL(image, (base64) => {
                             $.when($.ajax({
                                 url: '{{ route('tenant.admin.describe')}}',

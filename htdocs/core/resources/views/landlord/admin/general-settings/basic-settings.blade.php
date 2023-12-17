@@ -21,6 +21,7 @@
                     <x-fields.input type="text" value="{{get_static_option('lien_twitter')}}" name="lien_twitter" label="{{__('twitter link')}}"/>
                     <x-fields.input type="text" value="{{get_static_option('lien_instagram')}}" name="lien_instagram" label="{{__('instagram link')}}"/>
                     <x-fields.input type="text" value="{{get_static_option('lien_youtube')}}" name="lien_youtube" label="{{__('youtube link')}}"/>
+                    <x-fields.input type="text" value="{{get_static_option('lien_pinterest')}}" name="lien_pinterest" label="{{__('pinterest link')}}"/>
                     <x-fields.input type="text" value="{{get_static_option('TIN')}}" name="TIN" label="{{__('TIN')}}"/>
                     <x-fields.input type="text" value="{{get_static_option('tva_code')}}" name="tva_code" label="{{__('TVA code')}}"/>
                     <x-fields.textarea type="text" value="{{get_static_option('site_footer_copyright_text')}}" name="site_footer_copyright_text" label="{{__('Footer Copyright Text')}}" info="{{__('{copy} Will replace by & and {year} will be replaced by current year.')}}"/>

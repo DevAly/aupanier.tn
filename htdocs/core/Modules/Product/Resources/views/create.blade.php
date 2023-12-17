@@ -6,6 +6,38 @@
     {{__('Add new Product')}}
 @endsection
 @section('style')
+    <style>
+        /* Add your loading animation styles here */
+        .loading-circle {
+            display: none;
+            position: relative;
+            padding: 10px;
+            width: 30px;
+            height: 30px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            animation: spin 2s linear infinite;
+            margin-left: 7px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .las{
+            vertical-align: middle;
+            font-size: 30px;
+            margin: auto 0;
+            padding: .1rem .7rem .1rem 0;
+        }
+        .dashboard-products-add .nav-pills .nav-link{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+    </style>
     <link rel="stylesheet" href="{{global_asset('assets/tenant/backend/css/bootstrap-taginput.css')}}">
     <link rel="stylesheet" href="{{global_asset('assets/common/css/select2.min.css')}}">
     <x-media-upload.css/>
@@ -152,7 +184,7 @@
                                         </h2>
                                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::product-inventory :units="$data['units']"/>
                                             </div>
                                         </div>
@@ -166,7 +198,7 @@
                                         </h2>
                                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::product-image/>
                                             </div>
                                         </div>
@@ -180,7 +212,7 @@
                                         </h2>
                                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::product-attribute :is-first="true" :colors="$data['product_colors']"
                                                                   :sizes="$data['product_sizes']"
                                                                   :allAttributes="$data['all_attribute']"/>
@@ -196,7 +228,7 @@
                                         </h2>
                                         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::categories :categories="$data['categories']"/>
                                             </div>
                                         </div>
@@ -205,13 +237,13 @@
                                         <h2 class="accordion-header" id="headingSeven">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                             <i class="las la-cogs"></i>
-                                            
+
                                         <div> {{ __("Product Settings") }}</div>
                                             </button>
                                         </h2>
                                         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                    
+
                                             <x-product::settings/>
                                             </div>
                                         </div>
@@ -219,7 +251,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingEight">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                            
+
                                          <i class="las la-gavel"></i>
                                         <div>{{ __("Shipping & Return Policy") }}</div>
                                             </button>
@@ -230,7 +262,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     </div>
                                 </div>
                             </div>
@@ -454,7 +486,57 @@
                             toastr.warning(data.msg);
                         }
                     }
+
+                    $(document).on('click','.generate-title', function(){
+                        var $this = $(this);
+                        var image = $('.image-product-wrapper #image_id_section .attachment-preview img').attr('src');
+                        if(!image){
+                            alert("Merci d'ajouter une image");
+                            return;
+                        }
+                        $this.attr('disabled', true);
+                        $("#loadingCircle").show();
+                        toDataURL(image, (base64) => {
+                            $.when($.ajax({
+                                url: '{{ route('tenant.admin.describe')}}',
+                                type: 'POST',
+                                headers: {
+                                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                                },
+                                data: {
+                                    "image_base64": base64
+                                }
+                            })).then((response) => {
+                                $this.attr('disabled', false);
+                                $("#loadingCircle").hide();
+                                if(response.success && response.data){
+                                    $('#suggestion').text(response.data);
+                                }
+                            });
+
+                        }, 'image/jpeg');
+                    });
+                    function toDataURL(src, callback, outputFormat) {
+                        var img = new Image();
+                        img.crossOrigin = 'Anonymous';
+                        img.onload = function() {
+                            var canvas = document.createElement('CANVAS');
+                            var ctx = canvas.getContext('2d');
+                            var dataURL;
+                            canvas.height = this.naturalHeight;
+                            canvas.width = this.naturalWidth;
+                            ctx.drawImage(this, 0, 0);
+                            dataURL = canvas.toDataURL(outputFormat);
+                            callback(dataURL);
+                        };
+                        img.src = src;
+                        if (img.complete || img.complete === undefined) {
+                            img.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+                            img.src = src;
+                        }
+                    }
                 });
+
 
                 $(window).bind('beforeunload', function(){
                     if(temp)

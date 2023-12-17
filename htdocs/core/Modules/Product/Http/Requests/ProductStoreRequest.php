@@ -15,8 +15,8 @@ class ProductStoreRequest extends FormRequest
     public function rules() : array
     {
         return [
-            "name" => "required|max:255",
-            "slug" => "required|unique:products,id," . $this->id ?? 0,
+            "name" => "nullable|max:255",
+            "slug" => !$this->id ? ("nullable") : ("required|unique:products,id," . $this->id ?? 0),
             "summery" => "nullable|max:500",
             "description" => "nullable|max:500",
             "brand" => "nullable",

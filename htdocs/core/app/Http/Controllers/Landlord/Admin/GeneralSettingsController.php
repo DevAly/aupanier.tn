@@ -125,6 +125,7 @@ class GeneralSettingsController extends Controller
             'lien_twitter' => 'nullable|string',
             'lien_instagram' => 'nullable|string',
             'lien_youtube' => 'nullable|string',
+            'lien_pinterest' => 'nullable|string',
             'site_tag_line' => 'nullable|string',
             'site_footer_copyright_text' => 'nullable|string',
         ];

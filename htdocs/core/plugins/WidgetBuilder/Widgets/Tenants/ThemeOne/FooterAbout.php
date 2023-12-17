@@ -31,7 +31,7 @@ class FooterAbout extends WidgetBase
         $output .= Textarea::get([
             'name' => 'description',
             'label' => __('Description'),
-            'value' => $widget_saved_values['description'] ?? null
+            'value' => $widget_saved_values['description'] ?? "{settings.general.site_tag_line}"
         ]);
 
         $output .= $this->admin_form_submit_button();
@@ -51,14 +51,14 @@ class FooterAbout extends WidgetBase
         $image = render_image_markup_by_attachment_id($widget_logo, '', 'full');
 
         $markup = $this->widget_column_start();
-        $markup .= '<div class="footer-widget widget center-text">
+        $markup .= '<div class="footer-widget widget center-text bbb">
                             <div class="about_us_widget">
                                 <a href="'.url('/').'" class="footer-logo">
                                     '.$image.'
                                 </a>
                             </div>
                             <div class="footer-inner mt-4">
-                                <div class="about-us-para"> '. $widget_title .' </div>
+                                <div class="about-us-para"> '. changeInformation($widget_title) .' </div>
                             </div>
                         </div>';
         $markup .= $this->widget_column_end();

@@ -63,9 +63,34 @@ class Repeater extends PageBuilderField
     }
 
     public function render_repeater_fields( $index = null): string
-    {
+    { 
+        $myArray = array(
+        '{settings.general.shop_phone}' => __('Shop Phone Number'),
+        '{settings.general.shop_email}' => __('Shop Email'),
+        '{settings.general.shop_address}' => __('Shop Address'),
+        '{settings.general.site_title}' => __('Site Title'),
+        '{settings.general.site_tag_line}' => __('Site Tag Line'),
+        '{settings.general.lien_facebook}' => __('facebook link'),
+        '{settings.general.lien_twitter}' => __('twitter link'),
+        '{settings.general.lien_instagram}' => __('instagram link'),
+        '{settings.general.lien_youtube}' => __('youtube link'),
+        '{settings.general.lien_pinterest}' => __('pinterest link'),
+        '{settings.general.TIN}' => __('TIN'),
+        '{settings.general.tva_code}' => __('TVA code'),
+    );
+    
+    $output = '<div class="all-field-wrap">';
+    $output .= '<div style="display: flex; overflow-x: auto;">';
+    foreach ($myArray as $key => $value) {
+        if(changeInformation($key)){
+        $output.=' <button class="btn-sm btn btn-info " style="margin-left: 5px;margin-right: 5px; white-space: nowrap;" type="button">';
+        $output.=' <div style="display: flex;align-items: center;">';
+        $output.=$value;
+        $output.='</div></button>';
+    }
+    }
 
-        $output = '<div class="all-field-wrap">';
+        $output .= '</div>';
         $output .= '<div class="action-wrap">  <span class="add"><i class="las la-plus"></i></span> <span class="remove"><i class="las la-trash"></i></span></div>';
 
         $language_tab_init = LanguageTabs::init();

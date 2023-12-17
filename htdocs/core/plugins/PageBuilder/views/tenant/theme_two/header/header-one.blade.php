@@ -26,12 +26,12 @@
                                     <div class="col-lg-6">
                                         <div class="banner-image-content">
                                             <h2 class="banner-image-content-title fw-500 mt-3">
-                                                <a href="javascript:void(0)"> {{\App\Helpers\SanitizeInput::esc_html($title)}} </a>
+                                                <a href="javascript:void(0)"> {{\App\Helpers\SanitizeInput::esc_html(changeInformation($title))}} </a>
                                             </h2>
-                                            <p class="banner-image-content-para mt-3"> {{\App\Helpers\SanitizeInput::esc_html($subtitle)}} </p>
+                                            <p class="banner-image-content-para mt-3"> {{\App\Helpers\SanitizeInput::esc_html(changeInformation($subtitle))}} </p>
                                             <div class="btn-wrapper">
-                                                <a href="{{\App\Helpers\SanitizeInput::esc_url($button_url)}}"
-                                                   class="cmn-btn cmn-btn-bg-3 radius-0 mt-4 mt-lg-5" style="{{$button_color}}"> {{\App\Helpers\SanitizeInput::esc_html($button_text)}} </a>
+                                                <a href="{{\App\Helpers\SanitizeInput::esc_url(changeInformation($button_url))}}"
+                                                   class="cmn-btn cmn-btn-bg-3 radius-0 mt-4 mt-lg-5" style="{{$button_color}}"> {{\App\Helpers\SanitizeInput::esc_html(changeInformation($button_text))}} </a>
                                             </div>
                                         </div>
                                     </div>

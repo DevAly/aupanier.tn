@@ -898,10 +898,10 @@ function single_post_share($url, $title, $img_url)
     $linkedin_share_link = 'https://www.linkedin.com/shareArticle?mini=true&url=' . $encoded_url . '&amp;title=' . $post_title;
     $pinterest_share_link = 'https://pinterest.com/pin/create/button/?url=' . $encoded_url . '&amp;media=' . $img_url . '&amp;description=' . $post_title;
 
-    $output .= '<li><a class="facebook" target="_blank" href="' . $facebook_share_link . '"><i class="lab la-facebook-f"></i></a></li>';
-    $output .= '<li><a class="twitter" target="_blank" href="' . $twitter_share_link . '"><i class="lab la-twitter"></i></a></li>';
-    $output .= '<li><a class="linkedin" target="_blank" href="' . $linkedin_share_link . '"><i class="lab la-linkedin-in"></i></a></li>';
-    $output .= '<li><a class="pinterest" target="_blank" href="' . $pinterest_share_link . '"><i class="lab la-pinterest-p"></i></a></li>';
+    $output .= '<li><a class="facebook" target="_blank" href="' . changeInformation($facebook_share_link) . '"><i class="lab la-facebook-f"></i></a></li>';
+    $output .= '<li><a class="twitter" target="_blank" href="' . changeInformation($twitter_share_link) . '"><i class="lab la-twitter"></i></a></li>';
+    $output .= '<li><a class="linkedin" target="_blank" href="' . changeInformation($linkedin_share_link) . '"><i class="lab la-linkedin-in"></i></a></li>';
+    $output .= '<li><a class="pinterest" target="_blank" href="' . changeInformation($pinterest_share_link) . '"><i class="lab la-pinterest-p"></i></a></li>';
 
     return $output;
 }
@@ -1664,6 +1664,7 @@ function changeInformation($MyString){
         '{settings.general.lien_twitter}' => get_static_option('lien_twitter'),
         '{settings.general.lien_instagram}' => get_static_option('lien_instagram'),
         '{settings.general.lien_youtube}' => get_static_option('lien_youtube'),
+        '{settings.general.lien_pinterest}' => get_static_option('lien_pinterest'),
         '{settings.general.TIN}' => get_static_option('TIN'),
         '{settings.general.tva_code}' => get_static_option('tva_code'),
         '{settings.general.site_footer_copyright_text}' => get_static_option('site_footer_copyright_text'),
