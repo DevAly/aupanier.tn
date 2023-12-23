@@ -438,10 +438,15 @@
 
 
                     $(document).on('click', '.generate-title', function () {
+
                         var $this = $(this);
                         var image = $('.image-product-wrapper #image_id_section .attachment-preview img').attr('src');
                         if (!image) {
-                            alert("Merci d'ajouter une image");
+                            Swal.fire({
+                                icon: "error",
+                                title: "Oops...",
+                                text: "Merci d'ajouter une image",
+                            });
                             return;
                         }
                         $this.attr('disabled', true);
@@ -461,7 +466,31 @@
                                 $("#loadingCircle").hide();
                                 if(response.success && response.data){
                                     $('#suggestion').text(response.data);
+                                }else{
+                                    $('#suggestion').text('');
+                                    Swal.fire({
+                                        iconHtml: `<i class="fas fa-crown" style="color: gold; font-size: 2em;"></i>`,
+                                        title: null,
+                                        html: `<b>Cette fonctionnalité est réservée aux utilisateurs des plans premium.</b><br/>Mettez à niveau pour débloquer les titres générés par l'IA !`,
+                                        showCancelButton: true,
+                                        confirmButtonColor: '#3085d6',
+                                        cancelButtonColor: '#d33',
+                                        confirmButtonText: 'Voir les plans premium',
+                                        cancelButtonText: 'Annuler',
+                                        customClass: {
+                                            icon: 'no-border'
+                                        },
+                                    }).then((result) => {
+                                        if (result.isConfirmed) {
+                                            window.location.href = 'https://aupanier.tn/pricing-plan'; // Redirect to pricing plans page
+                                        }
+                                    });
+
                                 }
+                            }, (error) => {
+                                $this.attr('disabled', false);
+                                $("#loadingCircle").hide();
+                                ajax_toastr_error_message(error);
                             });
 
                          }, 'image/jpeg');

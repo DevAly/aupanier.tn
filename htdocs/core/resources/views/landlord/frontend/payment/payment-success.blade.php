@@ -107,3 +107,11 @@
     </div>
 
 @endsection
+@section('scripts')
+    <script>
+        $(document).ready(function () {
+            fbq('track', 'Purchase', {currency: "USD", value: {{ $payment_details->package_price / 3.07 }} });
+        })
+
+    </script>
+@endsection

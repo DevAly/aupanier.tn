@@ -21,7 +21,7 @@
     {!! render_favicon_by_id(get_static_option('site_favicon')) !!}
     <link href="{{ global_asset('assets/landlord/admin/css/materialdesignicons.min.css') }}" rel="stylesheet">
     <link href="{{ global_asset('assets/landlord/admin/css/vendor.bundle.base.css') }}" rel="stylesheet">
-    <link href="{{ global_asset('assets/landlord/admin/css/style.css') }}" rel="stylesheet">
+    <link href="{{ global_asset('assets/landlord/admin/css/style.css') }}?version={{time()}}" rel="stylesheet">
     <link href="{{ global_asset('assets/common/css/select2.min.css') }}" rel="stylesheet">
     <link href="{{ global_asset('assets/common/css/flatpickr.min.css') }}" rel="stylesheet">
     <link href="{{ global_asset('assets/common/css/toastr.css') }}" rel="stylesheet">

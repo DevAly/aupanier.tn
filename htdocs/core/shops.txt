@@ -1,0 +1,19 @@
+Tenant al-shop-iptv is active with 2 products.
+Tenant bettycosmetics is active with 0 products.
+Tenant boutiq is active with 1 products.
+Tenant bvbn is active with 3 products.
+Tenant cartpack is active with 0 products.
+Tenant cheapaly is active with 3 products.
+Tenant cityshop is active with 1 products.
+"SQLSTATE[HY000] [1049] Unknown database 'aupanier_tenant_dg' (SQL: select count(*) as aggregate from `products` where `created_at` >= 2023-09-23 15:23:26)" // app/Console/Commands/ActiveShops.php:48
+Tenant echri is active with 0 products.
+Tenant magazinfelleg is active with 3 products.
+Tenant mila-store is active with 1 products.
+"SQLSTATE[HY000] [1059] Identifier name 'aupanier_tenant_minuiserie-aluminium-garde-corps-rompe-escalier-cabine-de-douche' is too long (SQL: select count(*) as aggregate from `products` where `created_at` >= 2023-09-23 15:23:39)" // app/Console/Commands/ActiveShops.php:48
+Tenant mondo is active with 10 products.
+Tenant optique is active with 2 products.
+Tenant polymarket is active with 3 products.
+Tenant produit-cosmetique is active with 3 products.
+Tenant publicte is active with 1 products.
+Tenant taktak is active with 0 products.
+Tenant veilchen is active with 2 products.

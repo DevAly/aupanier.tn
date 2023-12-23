@@ -25,6 +25,10 @@ Route::middleware([
 ])->prefix('admin-home')->name('tenant.')->group(function () {
 
     Route::post('/describe', function () {
+        if(tenant()->payment_log->package_id == 8){
+            return response()->json(['success' => false, 'message' => "La génération de titres n'est disponible que pour les plans payants."]);
+        }
+        dd(tenant()->payment_log->package_id);
         $response = Http::withHeaders([
             'Authorization' => 'Bearer 1|5cW9v6Txr2eAFOlAORe0S2sET2nx5WyDV3WOR3A7',
             'Content-Type' => 'application/json',

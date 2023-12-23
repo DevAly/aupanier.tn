@@ -119,6 +119,7 @@
                 sessionStorage.removeItem("pkg_user_name")
                 sessionStorage.removeItem("pkg_user_email")
             })
+
         })
         })(jQuery);
     </script>

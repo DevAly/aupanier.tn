@@ -8,10 +8,10 @@
     <h4 class="dashboard-common-title-two"> {{ __("General Information") }} </h4>
     <div class="general-info-form mt-0 mt-lg-4">
         <form action="#">
-        <button class="btn-sm btn btn-info generate-title" type="button">    
+        <button class="btn-sm btn btn-info generate-title" type="button">
         <div style="display: flex;align-items: center;">
-                Generer un titre à partir de l'image
-                <div id="dataContainer"></div>
+            Générer un titre avec l'IA à partir de l'image <i class="fas fa-crown" style="padding-left: 2px;color: gold;font-size: 17px;"></i>
+            <div id="dataContainer"></div>
                 <div class="loading-circle" id="loadingCircle"></div>
             </div></button>
 
