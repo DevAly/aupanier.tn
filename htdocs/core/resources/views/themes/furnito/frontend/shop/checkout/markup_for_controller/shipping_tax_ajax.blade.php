@@ -12,12 +12,7 @@
                 <span>{{amount_with_currency_symbol($method['options']['cost'])}}</span>
             </li>
         @endforeach
-		
-					<script>
-					$('#shipping-option-1').click()
-					$('#cash').click()
-					$('#cash').prop('disabled', true);
-					</script>
+
     </ul>
 @endif
 

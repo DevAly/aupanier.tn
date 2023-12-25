@@ -71,7 +71,8 @@ class BrandController extends Controller
             $slug = create_slug($data['slug'] ?? $data['name'], 'Brand', true, 'Attributes');
             $data['slug'] = $slug;
         }
-
+        
+        $data['banner_id'] = $data['banner_id'] ?? $data['image_id'];
         $data['url'] = $data['url'] == null ? '#' : $data['url'];
         $data['url'] = SanitizeInput::esc_html($data['url']);
 

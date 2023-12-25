@@ -120,7 +120,7 @@
     @can('product-child-category-edit')
         <div class="modal fade" id="child-category_edit_modal" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content" style="max-height: unset">
                     <div class="modal-header">
                         <h5 class="modal-title">{{__('Update Child-Category')}}</h5>
                         <button type="button" class="close" data-bs-dismiss="modal"><span>×</span></button>
@@ -181,7 +181,7 @@
     @can('product-child-category-create')
         <div class="modal fade" id="child-category_create_modal" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content" style="max-height: unset">
                     <div class="modal-header">
                         <h5 class="modal-title">{{__('Add Child-Category')}}</h5>
                         <button type="button" class="close" data-bs-dismiss="modal"><span>×</span></button>

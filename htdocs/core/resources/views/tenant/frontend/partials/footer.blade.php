@@ -5,22 +5,33 @@
 
 <div class="modal product-quick-view-bg-color" id="au_add_to_cart_modal" tabindex="-1" role="dialog" aria-labelledby="productModal"
      aria-hidden="true">
-    <div class="modal-dialog modal-md">
-        <div class="modal-content p-5">
+    <div class="modal-dialog modal-md" style="max-width:min(90vw ,500px);margin:0;left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);">
+        <div class="modal-content p-5" style="padding: 2rem!important;max-width: 90vw;
+        max-height: 90vh;">
             <div class="">
                 <button class="quick-view-close-btn au-add-to-cart-close-btn"><i class="las la-times"></i></button>
             </div>
             <div class="row">
 
-                <div class="col-lg-12 col-xl-12">
-                    <div class="global-slick-init shop-details-top-slider quick-view-long-img" id="shop_details_gallery_slider" data-asnavfor=".shop-details-click-img" data-fade="true" data-infinite="true" data-autoplayspeed="3000" data-autoplay="true" data-src="https://cheapaly-shop.devaly.ovh/assets/tenant/uploads/media-uploader/cheapaly/frame-34482-min1668590518.jpg">
-                        <div class="quick-view-thumb position-relative">
-                            <img src="">
+                <div class="col-lg-12 col-xl-12"  style="margin-top:0;margin-right:0;padding-left:0;padding-right:0;">
+                    <div class="global-slick-init shop-details-top-slider quick-view-long-img" id="shop_details_gallery_slider" data-asnavfor=".shop-details-click-img" data-fade="true" data-infinite="true" data-autoplayspeed="3000" data-autoplay="true" data-src="https://cheapaly-shop.devaly.ovh/assets/tenant/uploads/media-uploader/cheapaly/frame-34482-min1668590518.jpg" style="margin-top:0;margin-right:0;padding-left:0;padding-right:0;">
+                        <div class="quick-view-thumb position-relative aa" >
+                            <img src=""style="
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            max-width: 50vw;
+                            max-height: 50vh;
+                            width:auto;
+                            height:auto;
+                        ">
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-12 col-xl-12 quick-view-shop-wrapper">
+                <div class="col-lg-12 col-xl-12 quick-view-shop-wrapper" style="margin-top:0;margin-right:0;padding-left:0;padding-right:0;">
                     <div class="">
 
                         <div class="name_badge">

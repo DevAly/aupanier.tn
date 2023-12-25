@@ -139,7 +139,7 @@ class Paymee extends PaymentGatewayBase
 		// }catch(\Throwable $th){
 			// dd($th);
 		// }
-
+	
 //        $paymee_arg_array = array();
 //        foreach ($params as $key => $value) {
 //            $paymee_arg_array[] = '<input type="hidden" name="'.$key.'" value="'.$value.'" />';
@@ -312,7 +312,7 @@ class Paymee extends PaymentGatewayBase
      * */
     public function gateway_name() : string
     {
-        return 'Mylerz';
+        return 'Paymee';
     }
 
     /**
@@ -346,7 +346,7 @@ class Paymee extends PaymentGatewayBase
     {
         $this->apiToken = $apiToken;
     }
-
+	
 	 /**
      * @return mixed
      */

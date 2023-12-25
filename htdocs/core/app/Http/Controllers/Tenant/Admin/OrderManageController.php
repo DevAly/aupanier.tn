@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Tenant\Admin;
 
+use App\CustomDeliveryMethods\Mylerz;
 use App\Http\Controllers\Controller;
 use App\Models\FormBuilder;
 use App\Models\Language;
@@ -31,20 +32,17 @@ class OrderManageController extends Controller
 
     public function all_orders(Request $request)
     {
-//        Config::set('mail.from.address', 'contact@em1693.shops.aupanier.tn');
-//
-//        \Mail::mailer('smtp_tenant')->raw('This is a test email', function ($message) {
-//            $message->to('amine.yaakoubi1999@gmail.com')->subject('Test Email');
-//        });
-//        dd('test');
         $typeArr = ['pending', 'in_progress', 'cancel', 'complete'];
-        if (isset($request->filter) && in_array($request->filter, $typeArr))
-        {
-            $all_orders = ProductOrder::where('status', $request->filter)->orderBy('id', 'desc')->get();
-            return view(self::ROOT_PATH . 'order-manage-all')->with(['all_orders' => $all_orders]);
+        $all_orders = ProductOrder::orderBy('id', 'desc');
+        if (empty($request->filter)) {
+            $request->filter = 'pending';
+        }
+        if (isset($request->filter) && in_array($request->filter, $typeArr)) {
+            $all_orders->where('status', $request->filter)
+                ->orderBy('id', 'desc');
         }
 
-        $all_orders = ProductOrder::orderBy('id', 'desc')->get();
+        $all_orders = $all_orders->get();
         return view(self::ROOT_PATH . 'order-manage-all')->with(['all_orders' => $all_orders]);
     }
 
@@ -421,5 +419,18 @@ class OrderManageController extends Controller
 
             return redirect()->back()->with(['msg' => __('Settings Updated....'), 'type' => 'success']);
         }
+    }
+
+    public function applyActionsOnOrders(Request $request)
+    {
+        $orderIds = $request->get('orderIds');
+        $action = $request->get('action');
+        if($action == 'create_mylerz_order'){
+            $mylerzService = new Mylerz();
+            $orders = ProductOrder::query()->whereIn('id', $orderIds)->get();
+            $mylerzService->addOrders($orders);
+
+        }
+        dd($request->all());
     }
 }

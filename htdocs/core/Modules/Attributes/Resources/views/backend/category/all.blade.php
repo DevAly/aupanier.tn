@@ -112,7 +112,7 @@
     @can('product-category-edit')
         <div class="modal fade" id="category_edit_modal" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content" style="max-height: unset">
                     <div class="modal-header">
                         <h5 class="modal-title">{{__('Update Category')}}</h5>
                         <button type="button" class="close" data-bs-dismiss="modal"><span>×</span></button>
@@ -163,7 +163,7 @@
     @can('product-category-create')
         <div class="modal fade" id="category_create_modal" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content" style="max-height: unset">
                     <div class="modal-header">
                         <h5 class="modal-title">{{__('Create Category')}}</h5>
                         <button type="button" class="close" data-bs-dismiss="modal"><span>×</span></button>

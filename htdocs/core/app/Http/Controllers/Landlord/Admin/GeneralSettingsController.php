@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Landlord\Admin;
 
+use App\CustomDeliveryMethods\Mylerz;
 use App\Facades\GlobalLanguage;
 use App\Helpers\FlashMsg;
 use App\Helpers\ImageDataSeedingHelper;
@@ -749,11 +750,42 @@ class GeneralSettingsController extends Controller
             update_static_option($field_name, $request->$field_name);
         }
 
-        $timezone = get_static_option('timezone');
-        if (!empty($timezone)) {
-            setEnvValue(['APP_TIMEZONE' => $timezone]);
-        }
+        return response()->success(ResponseMessage::SettingsSaved());
+    }
 
+    public function mylerz_settings()
+    {
+        return view(self::BASE_PATH . 'mylerz-settings');
+    }
+
+    public function update_mylerz_settings(Request $request)
+    {
+        $nonlang_fields = [
+            'is_mylerz_enabled' => 'nullable|string',
+            'mylerz_user_name' => 'nullable|string',
+            'mylerz_password' => 'nullable|string',
+        ];
+
+        $this->validate($request, $nonlang_fields);
+        $fields = [
+            'is_mylerz_enabled' => 'nullable|string',
+            'mylerz_user_name' => 'nullable|string',
+            'mylerz_password' => 'nullable|string',
+        ];
+
+        $this->validate($request, $fields);
+        foreach ($fields as $field_name => $rules) {
+            update_static_option($field_name, SanitizeInput::esc_html($request->$field_name));
+        }
+        $username = $request->mylerz_user_name;
+        $password = $request->mylerz_password;
+        $mylerzService = new Mylerz();
+        $mylerzService->setUsername($username);
+        $mylerzService->setPassword($password);
+        if(!$mylerzService->getToken()){
+            update_static_option('is_mylerz_enabled', 0);
+            return redirect()->back()->with(['msg' => 'L\'identifiant ou le mot de passe est incorrect', 'type' => 'danger']);
+        }
 
         return response()->success(ResponseMessage::SettingsSaved());
     }

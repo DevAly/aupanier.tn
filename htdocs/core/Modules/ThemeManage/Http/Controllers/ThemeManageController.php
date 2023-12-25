@@ -74,7 +74,7 @@ class ThemeManageController extends Controller
         //Themes::where('slug', $slug)->select('id')->firstOrFail();
 
 
-        DB::beginTransaction();
+        // DB::beginTransaction();
         try {
             $tenant = \tenant();
             Tenant::where('id',$tenant->id)->update([
@@ -89,7 +89,7 @@ class ThemeManageController extends Controller
                     'shop',
                     'blog',
                 ])->get();
-               
+            //    dd($pages );
                 foreach ($pages as $page){
                     $page->slug = $page->slug.'_old_'.uniqid();
                     $page->status = 0;
@@ -123,11 +123,11 @@ class ThemeManageController extends Controller
 
             });
 
-            DB::commit();
+            // DB::commit();
         } catch (\Exception $exception) {
 
 
-            DB::rollBack();
+            // DB::rollBack();
             dd($exception->getMessage());
         }
 

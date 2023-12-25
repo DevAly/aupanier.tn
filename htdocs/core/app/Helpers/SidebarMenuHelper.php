@@ -1079,12 +1079,12 @@ class SidebarMenuHelper
             'parent' => 'product-attribute-menu-items',
             'permissions' => ['product-brand-list'],
         ]);
-        // $menu_instance->add_menu_item('product-delivery-option-settings-menu-items', [
-        //     'route' => 'tenant.admin.product.delivery.option.all',
-        //     'label' => __('Delivery Option Manage'),
-        //     'parent' => 'product-attribute-menu-items',
-        //     'permissions' => ['product-delivery-option-list'],
-        // ]);
+//         $menu_instance->add_menu_item('product-delivery-option-settings-menu-items', [
+//             'route' => 'tenant.admin.product.delivery.option.all',
+//             'label' => __('Delivery Option Manage'),
+//             'parent' => 'product-attribute-menu-items',
+//             'permissions' => ['product-delivery-option-list'],
+//         ]);
         $menu_instance->add_menu_item('product-attribute-settings-menu-items', [
             'route' => 'tenant.admin.products.attributes.all',
             'label' => __('Product Attribute'),
@@ -1396,6 +1396,13 @@ class SidebarMenuHelper
             'label' => __('Facebook Pixel Settings'),
             'parent' => 'general-settings-menu-items',
             'permissions' => ['general-settings-facebook-pixel-settings'],
+        ]);
+
+        $menu_instance->add_menu_item('general-settings-mylerz-settings', [
+            'route' => 'tenant.admin.general.mylerz.settings',
+            'label' => __('Mylerz Settings'),
+            'parent' => 'general-settings-menu-items',
+            'permissions' => ['general-settings-mylerz-settings'],
         ]);
 
         $menu_instance->add_menu_item('general-settings-payment-gateway-settings', [

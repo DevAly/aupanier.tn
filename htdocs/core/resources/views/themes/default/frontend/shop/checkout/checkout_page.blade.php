@@ -275,7 +275,6 @@
                     error: () => {}
                 });
             });
-            $('.billing_address_country option:first').prop('selected', true);
             let el = $('.billing_address_country[name=country]');
                 let country = el.val();
 
@@ -328,7 +327,7 @@
                 $('.coupon-state').val(state);
 
                 getCountryStateBasedTotal(country, state);
-                
+
             });
 
             $(document).on('change', '.billing_address_country, .billing_address_state', function (e){

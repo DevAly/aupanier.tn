@@ -387,6 +387,10 @@
 
                         $('.coupon-country').val(country);
                         $('.coupon-state').val(state);
+                        if(!$('#shipping-option-1').is(':checked')){
+                            $('#shipping-option-1').trigger('click');
+                            console.log('click');
+                        }
                     },
                     error: () => {}
                 });

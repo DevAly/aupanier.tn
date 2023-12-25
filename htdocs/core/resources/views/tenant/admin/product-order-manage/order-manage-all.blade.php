@@ -31,18 +31,18 @@
 			margin:0;
 			padding:0;
 			}
-			
+
 		.btn.btn-sm, .btn-group-sm > .btn{
-			
+
 		font-size:12px !important;
 		padding: 0.3rem 0.5rem;
-		
+
 		}
 .btn.maj{
-			
+
 		padding: 8px;
-		
-		
+
+
 		}
 table.table-bordered.dataTable th, table.table-bordered.dataTable td {
     border-left-width: 0;
@@ -82,7 +82,7 @@ table.table-bordered.dataTable th, table.table-bordered.dataTable td {
  .text-capitalize{
  padding: 6px !important;
  background-color:transparent;
- 
+
  }
  .alert-danger {
 
@@ -94,7 +94,7 @@ border-left: 5px solid red!important;
     color: white;
 }
 .alert-info {
-	
+
 	border-left: 5px solid orange!important;
 }
 
@@ -113,7 +113,20 @@ border-left: 5px solid red!important;
                         <x-error-msg/>
                         <x-flash-msg/>
                        <h4 class="header-title mb-4">{{__('All Orders')}}</h4>
-					
+
+                        <div class="bulk-checkbox-wrapper my-3">
+                            <div class="select-box-wrap">
+                                <select name="bulk_option" id="bulk_option">
+                                    <option value="">Action groupée</option>
+                                    <optgroup label="Mylerz">
+                                        <option value="create_mylerz_order">Create order</option>
+                                        <option value="print_mylerz_order">Print order</option>
+                                    </optgroup>
+                                </select>
+                                <button class="btn btn-primary btn-sm" id="bulk_apply_btn">Appliquer</button>
+                            </div>
+                        </div>
+
                         <div class="table-wrap table-responsive ">
                                 <div class="flexy">
                                     <button class="status-btn btn btn-primary btn-sm {{ request()->filter == 'all' ? 'active' : '' }}" data-filter="all">{{ __('All Order') }} <i class="las la-boxes"></i></button>
@@ -124,7 +137,12 @@ border-left: 5px solid red!important;
                                     </div>
                             <table class="table table-default table-striped table-bordered sml-fontsize">
                                 <thead class="text-white" style="background-color: #b66dff">
-                                <tr >
+                                <tr>
+                                    <th class="no-sort">
+                                        <div class="mark-all-checkbox">
+                                            <input type="checkbox" class="all-checkbox">
+                                        </div>
+                                    </th>
                                     <th>{{__('ID')}}</th>
                                     <th>{{__('Billing Name')}}</th>
 										<!--   <th>{{__('Billing Email')}}</th> -->
@@ -139,6 +157,9 @@ border-left: 5px solid red!important;
                                 <tbody>
                                 @foreach($all_orders as $data)
                                     <tr>
+                                        <td> <div class="bulk-checkbox-wrapper">
+                                                <input type="checkbox" class="bulk-checkbox" name="bulk_select[]" value="{{$data->id}}">
+                                            </div></td>
                                         <td class="text-center">{{$data->id}}</td>
                                         <td>{{$data->name}}</td>
                                         	<!-- <td>{{$data->email}}</td>-->
@@ -161,7 +182,7 @@ border-left: 5px solid red!important;
                                                 <span
                                                     class="alert alert-danger text-capitalize">{{__($data->status)}}</span>
                                             @elseif($data->status == 'in_progress')
-                                                <span 
+                                                <span
                                                     class="alert alert-info text-capitalize">{{__(str_replace('_', ' ',ucwords($data->status)))}}</span>
                                             @else
                                                 <span
@@ -231,7 +252,13 @@ border-left: 5px solid red!important;
     <x-media-upload.js/>
     <x-summernote.js/>
     <x-bulk-action-js :url="route( route_prefix().'admin.product.order.bulk.action')" />
-
+    <script type="text/javascript">
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    </script>
     <script>
         $(document).on('click', '.order_status_change_btn', function (e) {
             e.preventDefault();
@@ -296,20 +323,43 @@ border-left: 5px solid red!important;
 
                     location.href = '{{route('tenant.admin.product.order.manage.all').'?filter='}}' + type;
                 });
+
+                $(document).on('click', '#bulk_apply_btn', function (e) {
+                    e.preventDefault();
+                    let $orders = $('.bulk-checkbox:checked');
+                    let orderIds = [];
+                    $orders.each(function () {
+                        orderIds.push($(this).val());
+                    });
+                    if(!orderIds.length){
+                        Swal.fire('Oops...', 'Please select at least one order', 'error');
+                        return;
+                    }
+                    $.when($.ajax({
+                        url: '{{ route('tenant.admin.product.order.apply.actions') }}',
+                        type: 'POST',
+                        data: {
+                            orderIds: orderIds,
+                            action: $('#bulk_option').val(),
+                        }
+                    })).then(function (response){
+
+                    })
+                });
             });
         })(jQuery);
     </script>
-	
+
 <script>
     // Get all elements with the class "my-button"
     var buttons = document.querySelectorAll('.status-btn');
-    
+
     // Add a click event listener to each button
     buttons.forEach(function(button) {
         button.addEventListener('click', function() {
             // Get the value assigned to the button
             var value = button.getAttribute('data-filter');
-            
+
              location.href = '{{route('tenant.admin.product.order.manage.all').'?filter='}}' + value;
             // You can add your desired functionality here
         });

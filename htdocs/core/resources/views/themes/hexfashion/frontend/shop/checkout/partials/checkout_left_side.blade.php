@@ -24,26 +24,26 @@
 
                         <div class="checkout-form-flex">
                             <div class="single-input mt-4">
-                                <label class="label-title mb-3"> {{__('First Name')}} </label>
-                                <input class="form--control" type="text" name="name" placeholder="{{__('Type First Name')}}" value="@auth('web'){{$billing_info ? $billing_info->full_name:auth('web')->user()?->name}}@else{{old('name')}}@endauth" {{$readonly}}>
+                                <label class="label-title mb-3"> {{__('full name')}} *</label>
+                                <input class="form--control" type="text" name="name" placeholder="{{__('full name')}}" value="@auth('web'){{$billing_info ? $billing_info->full_name:auth('web')->user()?->name}}@else{{old('name')}}@endauth" {{$readonly}}>
                             </div>
                         </div>
                         <div class="checkout-form-flex">
                             <div class="single-input mt-4">
-                                <label class="label-title mb-3"> {{__('Mobile Number')}} </label>
+                                <label class="label-title mb-3"> {{__('Mobile Number')}} *</label>
                                 <input class="form--control" type="tel" placeholder="{{__('Type Mobile Number')}}" name="phone" value="@auth('web'){{$billing_info ? $billing_info->phone : (!empty(auth('web')->user()?->mobile) ? auth('web')->user()?->mobile : old('phone'))}}@else{{old('phone')}}@endauth" {{$readonly}}>
                             </div>
                             <div class="single-input mt-4">
-                                <label class="label-title mb-3"> {{__('Email Address')}} </label>
+                                <label class="label-title mb-3"> {{__('Email Address')}} *</label>
                                 <input class="form--control" type="text" placeholder="{{__('Type Email')}}" name="email" value="@auth('web'){{$billing_info ? $billing_info->email : auth('web')->user()?->email}}@else{{old('email')}}@endauth" {{$readonly}}>
                             </div>
                         </div>
                         <div class="checkout-form-flex">
                             <div class="single-input mt-4">
-                                <label class="label-title mb-3"> {{__('Country')}} </label>
-                                <select class="form--control billing_address_country" name="country" id="country">
+                                <label class="label-title mb-3"> {{__('Country')}} *</label>
+                                <select class="form--control billing_address_country 1" name="country" id="country">
                                     @if($billing_info == null)
-                                        <option value="" selected disabled>{{__('Select a country')}}</option>
+                                        <option value="" disabled>{{__('Select a country')}}</option>
                                         @foreach($countries as $country)
                                         @if($country->id==1)
                                         <option value="{{$country->id}}" selected>{{$country->name}}</option>
@@ -57,7 +57,7 @@
                                 </select>
                             </div>
                             <div class="single-input mt-4">
-                                <label class="label-title mb-3"> {{__('State')}} </label>
+                                <label class="label-title mb-3"> {{__('Governorate')}} * </label>
                                 <select class="form--control billing_address_state" name="state" id="state">
                                     @if($billing_info != null)
                                         <option {{$readonly}}>{{$billing_info?->state?->name}}</option>
@@ -65,8 +65,12 @@
                                 </select>
                             </div>
                             <div class="single-input mt-4">
-                                <label class="label-title mb-3"> {{__('City/Town')}} </label>
-                                <input class="form--control" type="text" placeholder="{{__('Type City/Town')}}" name="city" value="@auth('web'){{$billing_info ? $billing_info->city : (!empty(auth('web')->user()?->city) ? auth('web')->user()?->city : old('city'))}}@else{{old('city')}}@endauth" {{$readonly}}>
+                                <label class="label-title mb-3"> {{__('City')}} </label>
+                                <input class="form--control" type="text" placeholder="{{__('City')}}" name="city" value="@auth('web'){{$billing_info ? $billing_info->city : (!empty(auth('web')->user()?->city) ? auth('web')->user()?->city : old('city'))}}@else{{old('city')}}@endauth" {{$readonly}}>
+                            </div>
+                            <div class="single-input mt-4">
+                                <label class="label-title mb-3"> {{__('Zip Code')}} </label>
+                                <input class="form--control" type="text" placeholder="{{__('Zip Code')}}" name="zipcode" value="@auth('web'){{$billing_info ? $billing_info->zipcode : (!empty(auth('web')->user()?->zipcode) ? auth('web')->user()?->zipcode : old('zipcode'))}}@else{{old('zipcode')}}@endauth" {{$readonly}}>
                             </div>
                         </div>
                         <div class="checkout-form-flex">

@@ -110,7 +110,7 @@
     @can('brand-manage-edit')
         <div class="modal fade" id="brand_manage_edit_modal" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content" style="max-height: unset">
                     <div class="modal-header">
                         <h5 class="modal-title">{{__('Update Brand')}}</h5>
                         <button type="button" class="close" data-bs-dismiss="modal"><span>×</span></button>

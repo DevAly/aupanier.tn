@@ -18,7 +18,7 @@ class ProductStoreRequest extends FormRequest
             "name" => "nullable|max:255",
             "slug" => !$this->id ? ("nullable") : ("required|unique:products,id," . $this->id ?? 0),
             "summery" => "nullable|max:500",
-            "description" => "nullable|max:500",
+            "description" => "nullable",
             "brand" => "nullable",
             "cost" => "required|numeric",
             "price" => "nullable|numeric",

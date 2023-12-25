@@ -227,6 +227,7 @@ class ProductCheckoutService
             'country' => $user['country'],
             'state' => $user['state'],
             'city' => $user['city'],
+            'zipcode' => $validated_data['zipcode'] ?? '',
             'address' => $user['address'],
             'message' => $extra_note,
             'total_amount' => $finalPriceDetails,

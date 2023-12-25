@@ -31,7 +31,7 @@ class CheckoutFormRequest extends FormRequest
                 'shift_email' => "required|email",
                 'shift_country' => "required|numeric",
                 'shift_state' => "required|numeric",
-                'shift_city' => "required",
+                'shift_city' => "nullable",
                 'shift_address' => "required"
             ];
         } else {
@@ -42,7 +42,8 @@ class CheckoutFormRequest extends FormRequest
                     'email' => "required|email|unique:users,email",
                     'country' => "required|numeric",
                     'state' => "required|numeric",
-                    'city' => "required",
+                    'city' => "nullable",
+                    'zipcode' => "nullable",
                     'address' => "required"
                 ];
 
@@ -61,7 +62,8 @@ class CheckoutFormRequest extends FormRequest
                         'email' => "required|email", // user unique email needed?
                         'country' => "required|numeric",
                         'state' => "required|numeric",
-                        'city' => "required",
+                        'city' => "nullable",
+                        'zipcode' => "nullable",
                         'address' => "required"
                     ];
                 }
@@ -110,7 +112,8 @@ class CheckoutFormRequest extends FormRequest
             'create_password.same' => 'Password and password confirmation must match.',
 
             'manual_trasaction_id.required' => 'Transaction ID is required.',
-            'payment_gateway.required' => 'Payment Gateway is required.'
+            'payment_gateway.required' => 'Payment Gateway is required.',
+            'zipcode.required' => 'Zip code is required.'
         ];
     }
 }

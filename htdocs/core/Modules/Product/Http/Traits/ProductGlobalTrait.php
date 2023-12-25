@@ -249,7 +249,7 @@ trait ProductGlobalTrait {
     {
         // explode string to array
         $arr = [];
-        $exp_delivery_option = $this->separateStringToArray($data["delivery_option"], " , ") ?? [];
+        $exp_delivery_option = $this->separateStringToArray($data["delivery_option"] ?? "", " , ") ?? [];
 
         foreach($exp_delivery_option as $option){
             $arr[] = [
@@ -314,7 +314,6 @@ trait ProductGlobalTrait {
 
     public function prepareMetaData($data): array
     {
-
         return [
             'title' => SanitizeInput::esc_html($data["general_title"] ?? '') ?? '',
             'description' => SanitizeInput::esc_html($data["general_description"] ?? '') ?? '',

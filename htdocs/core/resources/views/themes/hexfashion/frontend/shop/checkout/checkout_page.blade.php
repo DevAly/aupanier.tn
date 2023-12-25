@@ -275,9 +275,24 @@
                     error: () => {}
                 });
             });
-              $('.billing_address_country option:first').prop('selected', true);
             let el = $('.billing_address_country[name=country]');
-                let country = el.val();
+            if(!$('.cash-on-delivery input').is(':checked')){
+                $('.cash-on-delivery input').attr('checked', true);
+                $('.payment-inlines').toggleClass('d-none');
+                $('input[name=manual_trasaction_id]').val('');
+                $('.payment_gateway_passing_clicking_name').val('');
+                $('.payment-gateway-wrapper ul li').removeClass('selected');
+
+                let cod = $('.cash_on_delivery').val();
+                if (cod === '')
+                {
+                    $('.cash_on_delivery').val('on');
+                } else {
+                    $('.cash_on_delivery').val('');
+                }
+            }
+
+            let country = el.val();
 
                 $.ajax({
                     url: '{{route('tenant.shop.checkout.state.ajax')}}',
@@ -327,7 +342,7 @@
                 $('.coupon-state').val(state);
 
                 getCountryStateBasedTotal(country, state);
-                
+
             });
 
             $(document).on('change', '.billing_address_country, .billing_address_state', function (e){
@@ -407,6 +422,10 @@
 
                         $('.coupon-country').val(country);
                         $('.coupon-state').val(state);
+                        if(!$('#shipping-option-1').is(':checked')){
+                            $('#shipping-option-1').trigger('click');
+                            console.log('click');
+                        }
                     },
                     error: () => {}
                 });

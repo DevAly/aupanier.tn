@@ -275,7 +275,6 @@
                     error: () => {}
                 });
             });
-            $('.billing_address_country option:first').prop('selected', true);
             let el = $('.billing_address_country[name=country]');
                 let country = el.val();
 

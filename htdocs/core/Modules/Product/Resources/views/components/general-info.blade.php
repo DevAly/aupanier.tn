@@ -33,7 +33,7 @@
 
             <div class="dashboard-input mt-4">
                 <label class="dashboard-label color-light mb-2"> {{ __("Description") }} </label>
-                <textarea class="form--control summernote radius-10" name="description" placeholder="{{ __("Type Description") }}">{!! purify_html($product?->description ?? "") !!}</textarea>
+                <textarea class="form--control summernote radius-10" name="description" placeholder="{{ __("Type Description") }}">{!! purify_html_raw($product?->description ?? "") !!}</textarea>
             </div>
 
             <div class="dashboard-input mt-4">

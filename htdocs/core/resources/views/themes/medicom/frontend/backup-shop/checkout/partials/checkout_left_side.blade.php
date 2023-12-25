@@ -41,7 +41,7 @@
                         <div class="checkout-form-flex">
                             <div class="single-input mt-4">
                                 <label class="label-title mb-3"> {{__('Country')}} </label>
-                                <select class="form--control billing_address_country" name="country" id="country">
+                                <select class="form--control billing_address_country 6" name="country" id="country">
                                     @if($billing_info == null)
                                         <option value="" selected disabled>{{__('Select a country')}}</option>
                                         @foreach($countries as $country)
