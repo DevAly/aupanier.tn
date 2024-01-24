@@ -7,12 +7,14 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'voku\\' => array($vendorDir . '/voku/portable-ascii/src/voku'),
+    'setasign\\Fpdi\\' => array($vendorDir . '/setasign/fpdi/src'),
     'apimatic\\jsonmapper\\' => array($vendorDir . '/apimatic/jsonmapper/src'),
     'Yajra\\DataTables\\' => array($vendorDir . '/yajra/laravel-datatables-oracle/src'),
     'Xgenious\\Paymentgateway\\' => array($vendorDir . '/xgenious/paymentgateway/src'),
     'WpOrg\\Requests\\' => array($vendorDir . '/rmccue/requests/src'),
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
+    'Webklex\\PDFMerger\\' => array($vendorDir . '/webklex/laravel-pdfmerger/src/PDFMerger'),
     'Unicodeveloper\\Paystack\\' => array($vendorDir . '/unicodeveloper/laravel-paystack/src'),
     'Tzsk\\Payu\\' => array($vendorDir . '/tzsk/payu/src'),
     'TijsVerkoyen\\CssToInlineStyles\\' => array($vendorDir . '/tijsverkoyen/css-to-inline-styles/src'),

@@ -190,6 +190,7 @@ return [
         //Plugins service provider
         \Plugins\PageBuilder\PageBuilderServiceProvider::class,
         WidgetBuilderServiceProvider::class,
+        Webklex\PDFMerger\Providers\PDFMergerServiceProvider::class
     ],
 
     /*
@@ -253,6 +254,7 @@ return [
         'JsonLdMulti'   => Artesaos\SEOTools\Facades\JsonLdMulti::class,
         // or
         'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
+        'PDFMerger' => Webklex\PDFMerger\Facades\PDFMergerFacade::class
     ],
 
 ];

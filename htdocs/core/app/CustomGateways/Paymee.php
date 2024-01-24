@@ -312,7 +312,7 @@ class Paymee extends PaymentGatewayBase
      * */
     public function gateway_name() : string
     {
-        return 'Mylerz';
+        return 'Paymee';
     }
 
     /**

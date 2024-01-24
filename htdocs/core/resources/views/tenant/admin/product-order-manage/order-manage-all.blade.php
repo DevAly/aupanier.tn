@@ -343,7 +343,15 @@ border-left: 5px solid red!important;
                             action: $('#bulk_option').val(),
                         }
                     })).then(function (response){
-
+                        Swal.fire(
+                            'Order(s) updated successfully',
+                            '',
+                            'success'
+                        ).then(() => {
+                            if(response.reload){
+                                location.reload();
+                            }
+                        })
                     })
                 });
             });

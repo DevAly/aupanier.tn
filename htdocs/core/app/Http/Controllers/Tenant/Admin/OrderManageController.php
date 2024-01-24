@@ -431,6 +431,13 @@ class OrderManageController extends Controller
             $mylerzService->addOrders($orders);
 
         }
-        dd($request->all());
+        if($action == 'print_mylerz_order'){
+            $mylerzService = new Mylerz();
+            $orders = ProductOrder::query()->whereIn('id', $orderIds)->get();
+            $pdfpath = $mylerzService->printOrders($orders);
+            dd($pdfpath);
+
+        }
+        return response()->json(['success' => true, 'reload' => true]);
     }
 }
