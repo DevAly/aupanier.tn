@@ -191,6 +191,8 @@ border-left: 5px solid red!important;
                                         </td>
                                         <td>{{$data->created_at->format('d M Y')}}</td>
                                         <td class="act">
+{{--                                            @if(!$data->au_disabled)--}}
+
                                             <a href="#"
                                                data-bs-toggle="modal"
                                                data-bs-target="#user_edit_modal"
@@ -230,6 +232,9 @@ border-left: 5px solid red!important;
                                                 <button class="btn btn-dark btn-sm"
                                                         type="submit">{{__('Invoice')}}</button>
                                             </form>
+{{--                                            @else--}}
+{{--                                                <i class="fas fa-crown" style="padding-left: 2px;color: gold;font-size: 17px;"></i>--}}
+{{--                                            @endif--}}
                                         </td>
                                     </tr>
                                 @endforeach

@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\PaymentGateway;
+use App\Models\ProductOrder;
+use App\Models\Tenant;
 use App\Models\Themes;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Session;
@@ -12,9 +14,13 @@ class DatabaseSeeder extends Seeder
 
     public function run()
     {
+        $tenant = Tenant::query()->where('id', 'testpurchasev2')->first()->run(function (){
+            ProductOrder::factory()->count(100)->create();
+        });
+
         // \App\Models\User::factory(10)->create();
 
-        update_static_option_central('get_script_version','1.0.3');
+//        update_static_option_central('get_script_version','1.0.3');
 
         // $payment_gateway_markup = [
         //     [

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Tenant\Admin;
 
 use App\CustomDeliveryMethods\Mylerz;
+use App\Helpers\PricePlanHelper;
 use App\Http\Controllers\Controller;
 use App\Models\FormBuilder;
 use App\Models\Language;
@@ -32,18 +33,27 @@ class OrderManageController extends Controller
 
     public function all_orders(Request $request)
     {
+        $hasFreePlan = PricePlanHelper::hasFreePlan();
+
         $typeArr = ['pending', 'in_progress', 'cancel', 'complete'];
         $all_orders = ProductOrder::orderBy('id', 'desc');
         if (empty($request->filter)) {
             $request->filter = 'pending';
         }
+
+        if($hasFreePlan){
+            $nonDisabledOrderIds = PricePlanHelper::getNonDisabledOrderIdsForFreePlan();
+            $all_orders->whereIn('id', $nonDisabledOrderIds);
+        }
+
         if (isset($request->filter) && in_array($request->filter, $typeArr)) {
             $all_orders->where('status', $request->filter)
                 ->orderBy('id', 'desc');
         }
 
-        $all_orders = $all_orders->get();
-        return view(self::ROOT_PATH . 'order-manage-all')->with(['all_orders' => $all_orders]);
+        dd($all_orders);
+
+        return view(self::ROOT_PATH . 'order-manage-all')->with(['all_orders' => $all_orders, 'hasFreePlan' => $hasFreePlan]);
     }
 
     public function view_order($id)

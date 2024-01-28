@@ -27,8 +27,8 @@ Route::middleware([
 
     Route::post('/describe', function(){
         $response = Http::withHeaders([
-            'Authorization' => 'Bearer 1|LU0K80rJkMtRman9ak5rm4HHDeSU6BMu7nLxRrhM'
-        ])->post('https://platform-ai.devaly.ovh/api/models/vision/describe', [
+            'Authorization' => 'Bearer '.config('aupanier.platform_api_token')
+        ])->post(config('aupanier.platform_url').'/api/models/vision/describe', [
             'image_base64' => request('image_base64'),
         ]);
 
