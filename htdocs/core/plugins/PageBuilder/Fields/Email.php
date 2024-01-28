@@ -20,7 +20,7 @@ class Email extends PageBuilderField
         $output = '';
         $output .= $this->field_before();
         $output .= $this->label();
-        $output .= '<input type="email" value="'.$this->value().'" name="'.$this->name().'"   placeholder="'.$this->placeholder().'" class="'.$this->field_class().'"/>';
+        $output .= '<input type="email" value="'.$this->value().'" name="'.$this->name().'"   placeholder="'.$this->placeholder().'" class="text-var-field '.$this->field_class().'"/>';
         $output .= $this->field_after();
 
         return $output;
