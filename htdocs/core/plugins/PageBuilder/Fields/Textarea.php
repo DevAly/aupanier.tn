@@ -19,7 +19,7 @@ class Textarea extends PageBuilderField
         $output = '';
         $output .= $this->field_before();
         $output .= $this->label();
-        $output .= '<textarea name="'.$this->name().'"  placeholder="'.$this->placeholder().'"  cols="10" rows="5" class="'.$this->field_class().'">'.$this->value().'</textarea>';
+        $output .= '<textarea name="'.$this->name().'"  placeholder="'.$this->placeholder().'"  cols="10" rows="5" class="text-var-field '.$this->field_class().'">'.$this->value().'</textarea>';
         $output .= $this->field_after();
 
         return $output;
