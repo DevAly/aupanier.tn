@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $tenant = Tenant::query()->where('id', 'testpurchasev2')->first()->run(function (){
-            ProductOrder::factory()->count(100)->create();
+            ProductOrder::factory()->count(500)->create();
         });
 
         // \App\Models\User::factory(10)->create();

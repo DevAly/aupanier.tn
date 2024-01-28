@@ -155,7 +155,20 @@ border-left: 5px solid red!important;
                                 </tr>
                                 </thead>
                                 <tbody>
-                                @foreach($all_orders as $data)
+                                @foreach($all_orders as $key => $data)
+                                    @if($key == 0 && $hasFreePlan && $countOrders > \App\Helpers\PricePlanHelper::FREE_PLAN_ORDERS_LIMIT)
+                                        <td colspan="75%" class="text-center align-middle" style="background-image: linear-gradient(90deg,#00cdfa -20.67%,#9058ff 42.73%,#ff76df 105.77%);">
+                                            <a href="#" class="text-decoration-none show-pro-plan-modal" data-toggle="modal" data-target="#proPlanModal" style="
+                                                color: white;
+                                                font-weight: bold;
+                                                display: inline-flex;
+                                                align-items: center;
+                                            ">
+                                                <i class="fas fa-crown" style="color: gold; font-size: 17px;"></i>
+                                                <span class="ml-2">Vous avez manqué <span id="newOrdersCount">{{ $countOrders - 500 }}</span> nouvelles commandes. Passez au plan Pro pour les visualiser.</span>
+                                            </a>
+                                        </td>
+                                    @endif
                                     <tr>
                                         <td> <div class="bulk-checkbox-wrapper">
                                                 <input type="checkbox" class="bulk-checkbox" name="bulk_select[]" value="{{$data->id}}">
@@ -358,6 +371,26 @@ border-left: 5px solid red!important;
                             }
                         })
                     })
+                });
+
+                $(document).on('click', '.show-pro-plan-modal', function (){
+                    Swal.fire({
+                        iconHtml: `<i class="fas fa-crown" style="color: gold; font-size: 2em;"></i>`,
+                        title: null,
+                        html: `<b>Cette fonctionnalité est réservée aux utilisateurs des plans premium.</b><br/>Mettez à niveau pour accéder à cette fonctionnalité exclusive !`,
+                        showCancelButton: true,
+                        confirmButtonColor: '#3085d6',
+                        cancelButtonColor: '#d33',
+                        confirmButtonText: 'Voir les plans premium',
+                        cancelButtonText: 'Annuler',
+                        customClass: {
+                            icon: 'no-border'
+                        },
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            window.location.href = 'https://'+aupanier_centrale_domain+'/pricing-plan'; // Redirect to pricing plans page
+                        }
+                    });
                 });
             });
         })(jQuery);

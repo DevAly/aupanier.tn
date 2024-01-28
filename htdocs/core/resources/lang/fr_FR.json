@@ -2646,5 +2646,9 @@
 	  "Facebook Pixel Settings": "Paramètres du pixel Facebook",
 	  "Mylerz Settings": "Paramètres du mylerz",
 	  "Disable/Enable Facebook Pixel": "Désactiver/activer le pixel Facebook",
-	  "Facebook Pixel Id": "Identité du pixel Facebook"
+	  "Facebook Pixel Id": "Identité du pixel Facebook",
+      "Orders :d": "Commandes :d",
+      "Storage :d MB": "Stockage :d MB",
+      "Storage :d1 :d2": "Stockage :d1 :d2",
+      "You need a pro plan to see this order!": "Vous avez besoin d'un forfait pro pour voir cette commande!"
 }

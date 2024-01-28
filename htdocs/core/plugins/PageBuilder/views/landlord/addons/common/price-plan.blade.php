@@ -38,7 +38,7 @@
             {!! $final_title !!}
             <p class="section-para"> {{$data['subtitle']}} </p>
         </div>
-{{-- 
+{{--
         <div class="row justify-content-center mt-4">
             <div class="col-lg-6 mt-4">
                 <div class="pricing-tab-list center-text">
@@ -57,14 +57,14 @@
                 </div>
             </div>
         </div> --}}
-      
+
 
         <div class="tab-content-item active" id="tab-month">
-               
+
                <div class="row mt-4">
         @foreach($data['all_price_plan'] as  $plan_type => $plan_items)
             @php
-          
+
                 $id= '';
                 $active = '';
                 $period = '';
@@ -82,7 +82,7 @@
             @endphp
                     @foreach($plan_items as $key => $price_plan_item)
                         @php $featured_condition = ($key == 0 && $plan_type == 0)? 'active' : '' @endphp
-                    
+
                         <div class="col-lg-4 col-md-6 mt-4">
                             <div class="single-price radius-10 {{$featured_condition}}">
                                 <span class="single-price-sub-title mb-5 radius-5"> {{$price_plan_item->package_badge}} </span>
@@ -146,12 +146,23 @@
                                                         @if($price_plan_item->storage_permission_feature < 0)
                                                             {{__('Storage Unlimited')}}
                                                         @else
-                                                            {{ __(sprintf('Storage %d MB',$price_plan_item->storage_permission_feature) )}}
+                                                            {{ __('Storage :d MB',['d' => $price_plan_item->storage_permission_feature]) }}
                                                         @endif
                                                     </strong>
                                                 </span>
                                             </li>
                                         @endif
+
+                                    @if(!empty($price_plan_item->price == 0))
+                                        <li class="single-price-list-item">
+                                            <span class="check-icon"> <i class="las la-check"></i> </span>
+                                            <span>
+                                                <strong>
+                                                     {{ __('Orders :d', ['d' => App\Helpers\PricePlanHelper::FREE_PLAN_ORDERS_LIMIT])}}
+                                                </strong>
+                                            </span>
+                                        </li>
+                                    @endif
                                 </ul>
 
                                 @if(!empty($price_plan_item->description))
@@ -184,7 +195,7 @@
                         </div>
                     @endforeach
         @endforeach
-        
+
              </div>
             </div>
     </div>

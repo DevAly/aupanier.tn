@@ -254,9 +254,9 @@
 
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        
 
-										
+
+
                                         <div class="form-group single-input mt-4" @if(!isset($_REQUEST['domain'])) style="display: none;" @endif>
                                             @auth('web')
                                                 @php
@@ -277,7 +277,7 @@
                                             </select>
                                         </div>
 
-											 
+
                                         <div class="form-group custom_subdomain_wrapper >
                                             <label for="custom-subdomain"
                                                    class="label-title mb-3">{{__('Add new subdomain')}}</label>
@@ -356,11 +356,19 @@
                                     <li class="check"> {{ __(sprintf('Product %s', $product_permission_feature))}}</li>
                                 @endif
 
+                                @if(!empty($order_details->price == 0))
+                                    <li class="check">
+                                        <span>
+                                                     {{ __('Orders :d', ['d' => App\Helpers\PricePlanHelper::FREE_PLAN_ORDERS_LIMIT])}}
+                                            </span>
+                                    </li>
+                                @endif
+
                                 @if(!empty($order_details->storage_permission_feature))
                                     @php
                                         $storage_permission_feature = $order_details->storage_permission_feature > 0 ? [$order_details->storage_permission_feature, 'MB']: [__('Unlimited'), ''];
                                     @endphp
-                                    <li class="check"> {{__(sprintf('Storage %s %s', current($storage_permission_feature), last($storage_permission_feature)))}}</li>
+                                    <li class="check"> {{__('Storage :d1 :d2', ['d1' => current($storage_permission_feature), 'd2' => last($storage_permission_feature)])}}</li>
                                 @endif
 
                                 @foreach($order_details->plan_features as $key=> $item)
@@ -369,6 +377,8 @@
                                     @endif
                                     <li class="check"> {{__(str_replace('_', ' ',ucfirst($item->feature_name))) ?? ''}}</li>
                                 @endforeach
+
+
                             </ul>
                         </div>
 

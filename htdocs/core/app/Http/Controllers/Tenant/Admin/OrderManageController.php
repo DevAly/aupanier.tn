@@ -36,30 +36,37 @@ class OrderManageController extends Controller
         $hasFreePlan = PricePlanHelper::hasFreePlan();
 
         $typeArr = ['pending', 'in_progress', 'cancel', 'complete'];
-        $all_orders = ProductOrder::orderBy('id', 'desc');
+        $all_orders = ProductOrder::query()->orderBy('id', 'desc');
         if (empty($request->filter)) {
             $request->filter = 'pending';
         }
-
+//
         if($hasFreePlan){
             $nonDisabledOrderIds = PricePlanHelper::getNonDisabledOrderIdsForFreePlan();
             $all_orders->whereIn('id', $nonDisabledOrderIds);
         }
 
         if (isset($request->filter) && in_array($request->filter, $typeArr)) {
-            $all_orders->where('status', $request->filter)
-                ->orderBy('id', 'desc');
+            $all_orders->where('status', $request->filter);
         }
+        $all_orders = $all_orders->get();
 
-        dd($all_orders);
-
-        return view(self::ROOT_PATH . 'order-manage-all')->with(['all_orders' => $all_orders, 'hasFreePlan' => $hasFreePlan]);
+        return view(self::ROOT_PATH . 'order-manage-all')->with(['all_orders' => $all_orders, 'hasFreePlan' => $hasFreePlan, 'countOrders' => ProductOrder::query()->count('id')]);
     }
 
     public function view_order($id)
     {
         if (!empty($id)) {
             $order = ProductOrder::find($id);
+        }
+        $hasFreePlan = PricePlanHelper::hasFreePlan();
+
+        if($hasFreePlan){
+            $nonDisabledOrderIds = PricePlanHelper::getNonDisabledOrderIdsForFreePlan();
+
+            if(!in_array($id, $nonDisabledOrderIds)){
+                abort(400, __('You need a pro plan to see this order!'));
+            }
         }
 
         return view(self::ROOT_PATH . 'order-view', compact('order'));

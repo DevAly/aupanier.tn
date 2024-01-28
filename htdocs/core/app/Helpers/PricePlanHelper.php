@@ -8,6 +8,7 @@ use Spatie\LaravelPackageTools\Package;
 
 class PricePlanHelper
 {
+    const FREE_PLAN_ORDERS_LIMIT = 500;
 
     /**
      * Retrieves the active plan for a tenant.
@@ -49,8 +50,8 @@ class PricePlanHelper
     public static function getNonDisabledOrderIdsForFreePlan()
     {
         return ProductOrder::query()
-            ->orderBy('created_at', 'desc')
-            ->take(10)
+            ->orderBy('created_at', 'asc')
+            ->take(self::FREE_PLAN_ORDERS_LIMIT)
             ->get()
             ->pluck('id')->toArray();
     }
