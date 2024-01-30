@@ -158,6 +158,7 @@
         defaultDate: "2018-04-24 16:57"
     });
 </script>
+@livewireScripts
 @yield('scripts')
 </body>
 </html>

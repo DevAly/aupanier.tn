@@ -38,7 +38,7 @@
     @if(\App\Enums\LanguageEnums::getdirection(get_user_lang_direction()) === 'rtl')
         <link href="{{ global_asset('assets/landlord/admin/css/rtl.css') }}" rel="stylesheet">
     @endif
-
+    @livewireStyles
     @yield('style')
 </head>
 <body>

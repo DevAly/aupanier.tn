@@ -19,9 +19,12 @@
 @endphp
 
 @section('content')
+
+
     <div class="col-lg-12 col-ml-12">
         <x-error-msg/>
         <x-flash-msg/>
+        <livewire:create-main-category>
         <div class="row g-4">
             <div class="col-lg-12">
                 <div class="card">
@@ -32,7 +35,7 @@
                                 @can('product-category-create')
                                     <a href="#"
                                        data-bs-toggle="modal"
-                                       data-bs-target="#category_create_modal"
+                                       data-bs-target="#category_create_modal_new"
                                        class="btn btn-sm btn-info mb-3 mr-1 text-light">{{__('New Category')}}</a>
                                 @endcan
                                 @can('product-category-delete')
