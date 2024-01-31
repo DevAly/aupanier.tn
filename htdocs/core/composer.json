@@ -5,6 +5,7 @@
             "url": "packages/xgenious/paymentgateway"
         }
     ],
+    
 
     "name": "laravel/laravel",
     "type": "project",
@@ -28,6 +29,7 @@
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.4",
+        "livewire/livewire": "^2.12",
         "mateusjunges/laravel-trackable-jobs": "^1.6",
         "mews/purifier": "^3.3",
         "nwidart/laravel-modules": "^8.3",

@@ -14,6 +14,9 @@ use Stancl\Tenancy\Events;
 use Stancl\Tenancy\Jobs;
 use Stancl\Tenancy\Listeners;
 use Stancl\Tenancy\Middleware;
+use Stancl\Tenancy\Middleware\InitializeTenancyByDomain;
+use Livewire\Livewire;
+
 
 class TenancyServiceProvider extends ServiceProvider
 {
@@ -119,6 +122,7 @@ class TenancyServiceProvider extends ServiceProvider
             }
             return redirect()->route('landlord.homepage'); //can be a custom url it redirects to or you can show a custom error page
         };
+
     }
 
     protected function bootEvents()

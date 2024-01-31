@@ -251,15 +251,15 @@
 
             });
 
-            $('#create-name , #create-slug').on('keyup', function () {
-                let title_text = $(this).val();
-                $('#create-slug').val(convertToSlug(title_text))
-            });
-
-            $('#edit_name , #edit_slug').on('keyup', function () {
-                let title_text = $(this).val();
-                $('#edit_slug').val(convertToSlug(title_text))
-            });
+            // $('#create-name , #create-slug').on('keyup', function () {
+            //     let title_text = $(this).val();
+            //     $('#create-slug').val(convertToSlug(title_text))
+            // });
+            //
+            // $('#edit_name , #edit_slug').on('keyup', function () {
+            //     let title_text = $(this).val();
+            //     $('#edit_slug').val(convertToSlug(title_text))
+            // });
         });
     </script>
 @endsection

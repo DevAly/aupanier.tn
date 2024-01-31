@@ -35,7 +35,7 @@ $file_load_more_route = route($route_name.'.admin.upload.media.file.loadmore');
                         mainUploadBtn.prev('input').attr('data-imgsrc',el.imgsrc);
                         mainUploadBtn.parent().find('.img-wrap').append('<div class="attachment-preview"><div class="thumbnail"><div class="centered"><img src="'+el.imgsrc+'"></div></div></div>');
                     });
-                    mainUploadBtn.prev('input').val(imageId.substring(0,imageId.length -1));
+                    mainUploadBtn.prev('input').val(imageId.substring(0,imageId.length -1)).trigger('change');
 
                 }
                 closeMediaUploadModal();
