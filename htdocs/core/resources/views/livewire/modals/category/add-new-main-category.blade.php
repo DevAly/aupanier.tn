@@ -37,7 +37,7 @@
                         @error('description') <span class="text-danger">{{ $message }}</span> @enderror
                     </div>
 
-                    <x-fields.media-upload :title="__('Image')" :name="'image_id'" wire:model="image_id" :dimentions="'120x120'"/>
+                    <x-fields.media-upload :title="__('Image')"  :name="'image_id'" wire:model="image_id" :dimentions="'120x120'"/>
 
 
                     <div class="form-group">

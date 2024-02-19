@@ -51,9 +51,12 @@ class CreateMainCategory extends Component
 
     protected $listeners = ['imageIdSet'];
 
-    public function imageIdSet($a = null)
+    public function imageIdSet($key = null, $value = null, $sectionId = null)
     {
-        dd($a);
+        if($sectionId == 'add-new-category' && $key == 'image_id'){
+//            $this->image_id = $value;
+        }
+
     }
 
     public function saveCategory()

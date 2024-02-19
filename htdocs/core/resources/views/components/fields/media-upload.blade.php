@@ -35,9 +35,15 @@
     <small>{{__('recommended image size is')}} {{$dimentions}}</small>
     @endif
 </div>
+
+
 <script>
-    document.querySelector("[name='{{$name}}']").addEventListener('change', function(e) {
-        // alert('it works');
-        window.livewire.emit('imageIdSet', 123);
+    document.addEventListener('DOMContentLoaded', function() {
+        $(document).on('change', "[name='{{$name}}']", function (){
+            let $this = $(this);
+            {{--window.livewire.emit('imageIdSet', '{{$name}}', $this.val(), '{{ $section_id }}');--}}
+        });
     });
+
 </script>
+
